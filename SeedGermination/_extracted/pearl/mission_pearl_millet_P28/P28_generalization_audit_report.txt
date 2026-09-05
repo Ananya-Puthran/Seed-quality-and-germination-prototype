@@ -1,0 +1,36 @@
+======================================================================
+🌾 MISSION PEARL MILLET — P28
+FINAL TEST GENERALIZATION / GROUP-WISE ROBUSTNESS AUDIT
+======================================================================
+
+Test records: 170
+Test groups: 17
+
+GLOBAL TEST PERFORMANCE
+Accuracy : 0.947059
+Precision: 0.966216
+Recall   : 0.972789
+F1       : 0.969492
+ROC-AUC  : 0.918072
+
+GROUP-WISE ROBUSTNESS
+Mean group accuracy: 0.947059
+Std group accuracy: 0.106757
+Minimum group accuracy: 0.600000
+Maximum group accuracy: 1.000000
+
+Mean group F1: 0.962673
+Std group F1: 0.077935
+Minimum group F1: 0.714286
+Maximum group F1: 1.000000
+
+Total test errors: 9
+Flagged groups: 2
+
+IMPORTANT:
+P28 is a final generalization audit only.
+No model retraining was performed.
+No feature selection was performed.
+No hyperparameters were changed.
+No threshold was changed.
+P25 final deployment model remains untouched.

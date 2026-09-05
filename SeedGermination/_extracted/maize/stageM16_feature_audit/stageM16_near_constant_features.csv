@@ -1,0 +1,5 @@
+feature,dominant_value,dominant_percentage,unique_values
+total_frames,72,100.0,1
+jumps_gt_005,0,100.0,1
+jumps_gt_010,0,100.0,1
+jumps_gt_020,0,100.0,1

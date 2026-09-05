@@ -1,0 +1,3 @@
+observation_state,samples,accuracy,f1,germinated,non_germinated
+ZM_EL_OBSERVED,96,1.0,1.0,96,0
+NO_ZM_EL_OBSERVED,69,0.7681159420289855,0.7575757575757576,33,36

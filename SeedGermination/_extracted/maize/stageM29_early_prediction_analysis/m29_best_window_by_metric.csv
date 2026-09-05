@@ -1,0 +1,6 @@
+metric,best_window,observation_percentage,score
+accuracy,90pct,89.69,0.9272727272727272
+precision,90pct,89.69,0.9606299212598424
+recall,75pct,74.23,0.9689922480620154
+f1,90pct,89.69,0.953125
+roc_auc,90pct,89.69,0.982773471145564

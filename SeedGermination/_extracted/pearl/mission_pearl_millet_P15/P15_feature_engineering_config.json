@@ -1,0 +1,19 @@
+{
+    "mission": "MISSION PEARL MILLET",
+    "stage": "P15",
+    "tracking_source": "/kaggle/working/mission_pearl_millet_P08/P08_spatial_tracking.csv",
+    "target_source": "/kaggle/working/mission_pearl_millet_P13/P13_frozen_seed_temporal_dataset.csv",
+    "total_seed_records": 824,
+    "total_groups": 82,
+    "frames_per_seed": 97,
+    "frame_range": "1_to_97",
+    "temporal_event_rule": "LONGEST_RUN_3",
+    "minimum_pg_el_run": 3,
+    "no_pg_el_frame_encoding": 0,
+    "total_features": 46,
+    "feature_engineering_only": true,
+    "model_trained": false,
+    "labels_modified": false,
+    "tracking_modified": false,
+    "images_modified": false
+}

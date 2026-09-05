@@ -1,0 +1,11 @@
+check,status,detail
+Dataset frozen,PASS,P13 dataset freeze confirmed.
+Temporal rule locked,PASS,LONGEST_RUN_3 confirmed.
+Feature count locked,PASS,Exactly 15 features locked.
+Feature values clean,PASS,No NaN or Inf values.
+Final model available,PASS,Final model file exists.
+Model configuration locked,PASS,HistGradientBoosting confirmed.
+Hyperparameters locked,PASS,P21 hyperparameters confirmed.
+Threshold locked,PASS,Decision threshold 0.53 confirmed.
+Final test evaluation complete,PASS,170 sealed test seeds evaluated.
+Final errors reproduced,PASS,Nine final test errors reproduced.

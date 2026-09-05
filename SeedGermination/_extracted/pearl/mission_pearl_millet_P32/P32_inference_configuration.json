@@ -1,0 +1,31 @@
+{
+    "mission": "MISSION PEARL MILLET",
+    "stage": "P32",
+    "model": "HistGradientBoosting",
+    "model_file": "/kaggle/working/mission_pearl_millet_P25/P25_final_histgradientboosting_model.pkl",
+    "feature_source": "P24 locked features",
+    "feature_count": 15,
+    "features": [
+        "width_change",
+        "mean_iou",
+        "height_change",
+        "area_change",
+        "std_center_x",
+        "std_center_y",
+        "std_iou",
+        "middle_mean_width",
+        "movement_std",
+        "median_movement",
+        "middle_mean_height",
+        "early_mean_area",
+        "max_movement",
+        "early_mean_width",
+        "middle_mean_area"
+    ],
+    "decision_threshold": 0.53,
+    "temporal_rule": "LONGEST_RUN_3",
+    "inference_records": 824,
+    "predicted_germinated": 709,
+    "predicted_non_germinated": 115,
+    "created_at": "2026-08-25T12:08:00.604073"
+}

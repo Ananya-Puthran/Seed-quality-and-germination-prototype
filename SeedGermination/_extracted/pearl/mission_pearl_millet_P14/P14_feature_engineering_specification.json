@@ -1,0 +1,21 @@
+{
+    "mission": "MISSION PEARL MILLET",
+    "stage": "P14",
+    "input_source": "P08 spatial tracking",
+    "frozen_target_source": "P13 frozen temporal dataset",
+    "total_seeds": 824,
+    "total_groups": 82,
+    "frames_per_seed": 97,
+    "frame_range": "1_to_97",
+    "classes": [
+        "pg_el",
+        "pg_im"
+    ],
+    "selected_temporal_rule": "LONGEST_RUN_3",
+    "minimum_pg_el_run": 3,
+    "feature_engineering_ready": true,
+    "labels_modified": false,
+    "tracking_modified": false,
+    "images_modified": false,
+    "model_trained": false
+}

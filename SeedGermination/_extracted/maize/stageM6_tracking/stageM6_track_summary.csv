@@ -1,0 +1,815 @@
+group,track_id,frames_observed,first_class,last_class,class_sequence,transition_count,germinated
+zm1_1,1,97,zm_im,zm_im,zm_im,0,False
+zm1_1,2,97,zm_im,zm_im,zm_im,0,False
+zm1_1,3,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm1_1,4,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm1_1,5,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm1_1,6,97,zm_im,zm_im,zm_im,0,False
+zm1_1,7,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm1_1,8,97,zm_im,zm_im,zm_im,0,False
+zm1_1,9,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm1_1,10,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm1_10,1,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm1_10,2,97,zm_im,zm_im,zm_im,0,False
+zm1_10,3,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm1_10,4,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm1_10,5,97,zm_im,zm_im,zm_im,0,False
+zm1_10,6,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm1_10,7,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm1_10,8,97,zm_im,zm_im,zm_im,0,False
+zm1_10,9,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm1_10,10,97,zm_im,zm_im,zm_im,0,False
+zm1_11,1,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm1_11,2,97,zm_im,zm_im,zm_im,0,False
+zm1_11,3,97,zm_im,zm_im,zm_im,0,False
+zm1_11,4,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm1_11,5,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm1_11,6,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm1_11,7,97,zm_im,zm_im,zm_im,0,False
+zm1_11,8,97,zm_im,zm_im,zm_im,0,False
+zm1_11,9,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm1_11,10,97,zm_im,zm_im,zm_im,0,False
+zm1_12,1,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm1_12,2,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm1_12,3,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm1_12,4,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm1_12,5,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm1_12,6,97,zm_im,zm_im,zm_im,0,False
+zm1_12,7,97,zm_im,zm_im,zm_im,0,False
+zm1_12,8,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm1_12,9,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm1_12,10,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm1_2,1,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm1_2,2,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm1_2,3,97,zm_im,zm_im,zm_im,0,False
+zm1_2,4,97,zm_im,zm_im,zm_im,0,False
+zm1_2,5,97,zm_im,zm_im,zm_im,0,False
+zm1_2,6,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm1_2,7,97,zm_im,zm_im,zm_im,0,False
+zm1_2,8,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm1_2,9,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm1_2,10,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm1_3,1,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm1_3,2,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm1_3,3,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm1_3,4,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm1_3,5,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm1_3,6,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm1_3,7,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm1_3,8,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm1_3,9,97,zm_im,zm_im,zm_im,0,False
+zm1_3,10,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm1_4,1,97,zm_im,zm_im,zm_im,0,False
+zm1_4,2,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm1_4,3,97,zm_im,zm_im,zm_im,0,False
+zm1_4,4,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm1_4,5,97,zm_im,zm_im,zm_im,0,False
+zm1_4,6,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm1_4,7,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm1_4,8,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm1_4,9,97,zm_im,zm_im,zm_im,0,False
+zm1_4,10,97,zm_im,zm_im,zm_im,0,False
+zm1_5,1,97,zm_im,zm_im,zm_im,0,False
+zm1_5,2,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm1_5,3,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm1_5,4,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm1_5,5,97,zm_im,zm_im,zm_im,0,False
+zm1_5,6,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm1_5,7,97,zm_im,zm_im,zm_im,0,False
+zm1_5,8,97,zm_im,zm_im,zm_im,0,False
+zm1_5,9,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm1_5,10,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm1_6,1,97,zm_im,zm_im,zm_im,0,False
+zm1_6,2,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm1_6,3,97,zm_im,zm_im,zm_im,0,False
+zm1_6,4,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm1_6,5,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm1_6,6,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm1_6,7,97,zm_im,zm_im,zm_im,0,False
+zm1_6,8,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm1_6,9,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm1_6,10,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm1_7,1,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm1_7,2,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm1_7,3,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm1_7,4,97,zm_im,zm_im,zm_im,0,False
+zm1_7,5,97,zm_im,zm_im,zm_im,0,False
+zm1_7,6,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm1_7,7,97,zm_im,zm_im,zm_im,0,False
+zm1_7,8,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm1_7,9,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm1_7,10,97,zm_im,zm_im,zm_im,0,False
+zm1_8,1,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm1_8,2,97,zm_im,zm_im,zm_im,0,False
+zm1_8,3,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm1_8,4,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm1_8,5,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm1_8,6,97,zm_im,zm_im,zm_im,0,False
+zm1_8,7,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm1_8,8,97,zm_im,zm_im,zm_im,0,False
+zm1_8,9,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm1_8,10,97,zm_im,zm_im,zm_im,0,False
+zm1_9,1,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm1_9,2,97,zm_im,zm_im,zm_im,0,False
+zm1_9,3,97,zm_im,zm_im,zm_im,0,False
+zm1_9,4,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm1_9,5,97,zm_im,zm_im,zm_im,0,False
+zm1_9,6,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm1_9,7,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm1_9,8,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm1_9,9,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm1_9,10,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm2_1,1,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm2_1,2,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm2_1,3,97,zm_im,zm_im,zm_im,0,False
+zm2_1,4,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm2_1,5,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm2_1,6,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm2_1,7,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm2_1,8,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm2_1,9,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm2_1,10,97,zm_im,zm_im,zm_im,0,False
+zm2_10,1,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm2_10,2,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm2_10,3,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm2_10,4,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm2_10,5,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm2_10,6,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm2_10,7,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm2_10,8,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm2_10,9,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm2_10,10,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm2_11,1,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm2_11,2,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm2_11,3,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm2_11,4,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm2_11,5,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm2_11,6,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm2_11,7,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm2_11,8,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm2_11,9,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm2_11,10,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm2_12,1,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm2_12,2,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm2_12,3,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm2_12,4,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm2_12,5,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm2_12,6,97,zm_im,zm_im,zm_im,0,False
+zm2_12,7,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm2_12,8,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm2_12,9,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm2_12,10,97,zm_im,zm_im,zm_im,0,False
+zm2_2,1,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm2_2,2,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm2_2,3,97,zm_im,zm_im,zm_im,0,False
+zm2_2,4,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm2_2,5,97,zm_im,zm_im,zm_im,0,False
+zm2_2,6,97,zm_im,zm_im,zm_im,0,False
+zm2_2,7,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm2_2,8,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm2_2,9,97,zm_im,zm_im,zm_im,0,False
+zm2_2,10,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm2_3,1,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm2_3,2,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm2_3,3,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm2_3,4,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm2_3,5,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm2_3,6,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm2_3,7,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm2_3,8,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm2_3,9,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm2_3,10,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm2_4,1,97,zm_im,zm_im,zm_im,0,False
+zm2_4,2,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm2_4,3,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm2_4,4,97,zm_im,zm_im,zm_im,0,False
+zm2_4,5,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm2_4,6,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm2_4,7,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm2_4,8,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm2_4,9,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm2_4,10,97,zm_im,zm_im,zm_im,0,False
+zm2_5,1,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm2_5,2,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm2_5,3,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm2_5,4,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm2_5,5,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm2_5,6,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm2_5,7,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm2_5,8,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm2_5,9,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm2_5,10,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm2_6,1,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm2_6,2,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm2_6,3,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm2_6,4,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm2_6,5,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm2_6,6,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm2_6,7,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm2_6,8,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm2_6,9,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm2_6,10,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm2_7,1,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm2_7,2,97,zm_im,zm_im,zm_im,0,False
+zm2_7,3,97,zm_im,zm_im,zm_im,0,False
+zm2_7,4,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm2_7,5,97,zm_im,zm_im,zm_im,0,False
+zm2_7,6,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm2_7,7,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm2_7,8,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm2_7,9,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm2_7,10,97,zm_im,zm_im,zm_im,0,False
+zm2_8,1,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm2_8,2,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm2_8,3,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm2_8,4,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm2_8,5,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm2_8,6,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm2_8,7,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm2_8,8,97,zm_im,zm_im,zm_im,0,False
+zm2_8,9,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm2_9,1,97,zm_im,zm_im,zm_im,0,False
+zm2_9,2,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm2_9,3,97,zm_im,zm_im,zm_im,0,False
+zm2_9,4,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm2_9,5,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm2_9,6,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm2_9,7,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm2_9,8,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm2_9,9,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm2_9,10,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm3_1,1,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm3_1,2,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm3_1,3,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm3_1,4,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm3_1,5,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm3_1,6,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm3_1,7,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm3_1,8,97,zm_im,zm_im,zm_im,0,False
+zm3_1,9,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm3_10,1,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm3_10,2,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm3_10,3,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm3_10,4,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm3_10,5,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm3_10,6,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm3_10,7,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm3_10,8,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm3_10,9,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm3_11,1,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm3_11,2,97,zm_im,zm_im,zm_im,0,False
+zm3_11,3,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm3_11,4,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm3_11,5,97,zm_im,zm_im,zm_im,0,False
+zm3_11,6,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm3_11,7,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm3_11,8,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm3_11,9,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm3_11,10,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm3_12,1,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm3_12,2,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm3_12,3,97,zm_im,zm_im,zm_im,0,False
+zm3_12,4,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm3_12,5,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm3_12,6,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm3_12,7,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm3_12,8,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm3_12,9,97,zm_im,zm_im,zm_im,0,False
+zm3_12,10,97,zm_im,zm_im,zm_im,0,False
+zm3_2,1,97,zm_im,zm_im,zm_im,0,False
+zm3_2,2,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm3_2,3,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm3_2,4,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm3_2,5,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm3_2,6,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm3_2,7,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm3_2,8,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm3_2,9,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm3_2,10,97,zm_im,zm_im,zm_im,0,False
+zm3_3,1,97,zm_im,zm_im,zm_im,0,False
+zm3_3,2,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm3_3,3,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm3_3,4,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm3_3,5,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm3_3,6,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm3_3,7,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm3_3,8,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm3_3,9,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm3_3,10,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm3_4,1,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm3_4,2,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm3_4,3,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm3_4,4,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm3_4,5,97,zm_im,zm_im,zm_im,0,False
+zm3_4,6,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm3_4,7,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm3_4,8,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm3_4,9,97,zm_im,zm_im,zm_im,0,False
+zm3_4,10,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm3_5,1,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm3_5,2,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm3_5,3,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm3_5,4,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm3_5,5,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm3_5,6,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm3_5,7,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm3_5,8,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm3_6,1,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm3_6,2,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm3_6,3,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm3_6,4,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm3_6,5,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm3_6,6,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm3_6,7,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm3_6,8,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm3_6,9,97,zm_im,zm_im,zm_im,0,False
+zm3_7,1,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm3_7,2,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm3_7,3,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm3_7,4,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm3_7,5,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm3_7,6,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm3_7,7,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm3_7,8,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm3_7,9,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm3_7,10,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm3_8,1,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm3_8,2,97,zm_im,zm_im,zm_im,0,False
+zm3_8,3,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm3_8,4,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm3_8,5,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm3_8,6,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm3_8,7,97,zm_im,zm_im,zm_im,0,False
+zm3_8,8,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm3_8,9,97,zm_im,zm_im,zm_im,0,False
+zm3_8,10,97,zm_im,zm_im,zm_im,0,False
+zm3_9,1,97,zm_im,zm_im,zm_im,0,False
+zm3_9,2,97,zm_im,zm_im,zm_im,0,False
+zm3_9,3,97,zm_im,zm_im,zm_im,0,False
+zm3_9,4,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm3_9,5,97,zm_im,zm_im,zm_im,0,False
+zm3_9,6,97,zm_im,zm_im,zm_im,0,False
+zm3_9,7,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm3_9,8,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm3_9,9,97,zm_im,zm_im,zm_im,0,False
+zm3_9,10,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm4_1,1,97,zm_im,zm_im,zm_im,0,False
+zm4_1,2,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm4_1,3,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm4_1,4,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm4_1,5,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm4_1,6,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm4_1,7,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm4_1,8,97,zm_im,zm_im,zm_im,0,False
+zm4_10,1,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm4_10,2,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm4_10,3,97,zm_im,zm_im,zm_im,0,False
+zm4_10,4,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm4_10,5,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm4_10,6,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm4_10,7,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm4_10,8,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm4_11,1,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm4_11,2,97,zm_im,zm_im,zm_im,0,False
+zm4_11,3,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm4_11,4,97,zm_im,zm_im,zm_im,0,False
+zm4_11,5,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm4_11,6,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm4_11,7,97,zm_im,zm_im,zm_im,0,False
+zm4_11,8,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm4_11,9,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm4_11,10,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm4_12,1,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm4_12,2,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm4_12,3,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm4_12,4,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm4_12,5,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm4_12,6,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm4_12,7,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm4_12,8,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm4_12,9,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm4_12,10,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm4_2,1,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm4_2,2,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm4_2,3,97,zm_im,zm_im,zm_im,0,False
+zm4_2,4,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm4_2,5,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm4_2,6,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm4_2,7,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm4_3,1,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm4_3,2,97,zm_im,zm_im,zm_im,0,False
+zm4_3,3,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm4_3,4,97,zm_im,zm_im,zm_im,0,False
+zm4_3,5,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm4_3,6,97,zm_im,zm_im,zm_im,0,False
+zm4_3,7,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm4_3,8,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm4_3,9,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm4_3,10,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm4_4,1,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm4_4,2,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm4_4,3,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm4_4,4,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm4_4,5,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm4_4,6,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm4_4,7,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm4_4,8,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm4_5,1,97,zm_im,zm_im,zm_im,0,False
+zm4_5,2,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm4_5,3,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm4_5,4,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm4_5,5,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm4_5,6,97,zm_im,zm_im,zm_im,0,False
+zm4_5,7,97,zm_im,zm_im,zm_im,0,False
+zm4_5,8,97,zm_im,zm_im,zm_im,0,False
+zm4_6,1,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm4_6,2,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm4_6,3,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm4_6,4,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm4_6,5,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm4_6,6,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm4_6,7,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm4_6,8,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm4_7,1,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm4_7,2,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm4_7,3,97,zm_im,zm_im,zm_im,0,False
+zm4_7,4,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm4_7,5,97,zm_im,zm_im,zm_im,0,False
+zm4_7,6,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm4_7,7,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm4_7,8,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm4_7,9,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm4_7,10,97,zm_im,zm_im,zm_im,0,False
+zm4_8,1,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm4_8,2,97,zm_im,zm_im,zm_im,0,False
+zm4_8,3,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm4_8,4,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm4_8,5,97,zm_im,zm_im,zm_im,0,False
+zm4_8,6,97,zm_im,zm_im,zm_im,0,False
+zm4_8,7,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm4_8,8,97,zm_im,zm_im,zm_im,0,False
+zm4_8,9,97,zm_im,zm_im,zm_im,0,False
+zm4_8,10,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm4_9,1,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm4_9,2,97,zm_el,zm_el,zm_el,0,True
+zm4_9,3,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm4_9,4,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm4_9,5,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm4_9,6,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm4_9,7,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm4_9,8,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm5_1,1,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm5_1,2,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm5_1,3,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm5_1,4,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm5_1,5,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm5_1,6,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm5_1,7,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm5_1,8,97,zm_im,zm_im,zm_im,0,False
+zm5_1,9,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm5_1,10,97,zm_im,zm_im,zm_im,0,False
+zm5_10,1,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm5_10,2,97,zm_im,zm_im,zm_im,0,False
+zm5_10,3,97,zm_im,zm_im,zm_im,0,False
+zm5_10,4,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm5_10,5,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm5_10,6,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm5_10,7,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm5_10,8,97,zm_im,zm_im,zm_im,0,False
+zm5_10,9,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm5_10,10,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm5_11,1,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm5_11,2,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm5_11,3,97,zm_im,zm_im,zm_im,0,False
+zm5_11,4,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm5_11,5,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm5_11,6,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm5_11,7,97,zm_im,zm_im,zm_im,0,False
+zm5_11,8,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm5_11,9,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm5_11,10,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm5_12,1,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm5_12,2,97,zm_im,zm_im,zm_im,0,False
+zm5_12,3,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm5_12,4,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm5_12,5,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm5_12,6,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm5_12,7,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm5_12,8,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm5_12,9,97,zm_im,zm_im,zm_im,0,False
+zm5_12,10,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm5_2,1,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm5_2,2,97,zm_im,zm_im,zm_im,0,False
+zm5_2,3,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm5_2,4,97,zm_im,zm_im,zm_im,0,False
+zm5_2,5,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm5_2,6,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm5_2,7,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm5_2,8,97,zm_im,zm_im,zm_im,0,False
+zm5_2,9,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm5_2,10,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm5_3,1,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm5_3,2,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm5_3,3,97,zm_im,zm_im,zm_im,0,False
+zm5_3,4,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm5_3,5,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm5_3,6,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm5_3,7,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm5_3,8,97,zm_im,zm_im,zm_im,0,False
+zm5_3,9,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm5_3,10,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm5_4,1,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm5_4,2,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm5_4,3,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm5_4,4,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm5_4,5,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm5_4,6,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm5_4,7,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm5_4,8,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm5_4,9,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm5_4,10,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm5_5,1,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm5_5,2,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm5_5,3,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm5_5,4,97,zm_im,zm_im,zm_im,0,False
+zm5_5,5,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm5_5,6,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm5_5,7,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm5_5,8,97,zm_im,zm_im,zm_im,0,False
+zm5_5,9,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm5_5,10,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm5_6,1,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm5_6,2,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm5_6,3,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm5_6,4,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm5_6,5,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm5_6,6,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm5_6,7,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm5_6,8,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm5_6,9,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm5_6,10,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm5_7,1,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm5_7,2,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm5_7,3,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm5_7,4,97,zm_im,zm_im,zm_im,0,False
+zm5_7,5,97,zm_im,zm_im,zm_im,0,False
+zm5_7,6,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm5_7,7,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm5_7,8,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm5_7,9,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm5_7,10,97,zm_im,zm_im,zm_im,0,False
+zm5_8,1,97,zm_im,zm_im,zm_im,0,False
+zm5_8,2,97,zm_im,zm_el,zm_im -> zm_el -> zm_im -> zm_el,3,True
+zm5_8,3,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm5_8,4,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm5_8,5,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm5_8,6,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm5_8,7,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm5_8,8,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm5_8,9,97,zm_im,zm_im,zm_im,0,False
+zm5_8,10,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm5_8,11,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm5_9,1,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm5_9,2,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm5_9,3,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm5_9,4,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm5_9,5,97,zm_im,zm_im,zm_im,0,False
+zm5_9,6,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm5_9,7,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm5_9,8,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm5_9,9,97,zm_im,zm_im,zm_im,0,False
+zm5_9,10,97,zm_im,zm_im,zm_im,0,False
+zm6_1,1,97,zm_im,zm_im,zm_im,0,False
+zm6_1,2,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm6_1,3,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm6_1,4,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm6_1,5,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm6_1,6,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm6_1,7,97,zm_im,zm_im,zm_im,0,False
+zm6_1,8,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm6_1,9,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm6_1,10,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm6_10,1,97,zm_im,zm_im,zm_im,0,False
+zm6_10,2,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm6_10,3,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm6_10,4,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm6_10,5,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm6_10,6,97,zm_im,zm_im,zm_im,0,False
+zm6_10,7,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm6_10,8,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm6_10,9,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm6_10,10,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm6_11,1,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm6_11,2,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm6_11,3,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm6_11,4,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm6_11,5,97,zm_im,zm_im,zm_im,0,False
+zm6_11,6,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm6_11,7,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm6_11,8,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm6_11,9,97,zm_im,zm_im,zm_im,0,False
+zm6_11,10,97,zm_im,zm_im,zm_im,0,False
+zm6_12,1,97,zm_im,zm_im,zm_im,0,False
+zm6_12,2,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm6_12,3,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm6_12,4,97,zm_im,zm_im,zm_im,0,False
+zm6_12,5,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm6_12,6,97,zm_im,zm_im,zm_im,0,False
+zm6_12,7,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm6_12,8,97,zm_im,zm_im,zm_im,0,False
+zm6_12,9,97,zm_im,zm_im,zm_im,0,False
+zm6_12,10,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm6_2,1,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm6_2,2,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm6_2,3,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm6_2,4,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm6_2,5,97,zm_im,zm_im,zm_im,0,False
+zm6_2,6,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm6_2,7,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm6_2,8,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm6_2,9,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm6_2,10,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm6_3,1,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm6_3,2,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm6_3,3,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm6_3,4,97,zm_im,zm_im,zm_im,0,False
+zm6_3,5,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm6_3,6,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm6_3,7,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm6_3,8,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm6_3,9,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm6_3,10,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm6_4,1,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm6_4,2,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm6_4,3,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm6_4,4,97,zm_im,zm_im,zm_im,0,False
+zm6_4,5,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm6_4,6,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm6_4,7,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm6_4,8,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm6_4,9,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm6_4,10,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm6_5,1,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm6_5,2,97,zm_im,zm_im,zm_im,0,False
+zm6_5,3,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm6_5,4,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm6_5,5,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm6_5,6,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm6_5,7,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm6_5,8,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm6_5,9,97,zm_im,zm_im,zm_im,0,False
+zm6_5,10,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm6_6,1,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm6_6,2,97,zm_im,zm_im,zm_im,0,False
+zm6_6,3,97,zm_im,zm_im,zm_im,0,False
+zm6_6,4,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm6_6,5,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm6_6,6,97,zm_im,zm_im,zm_im,0,False
+zm6_6,7,97,zm_im,zm_im,zm_im,0,False
+zm6_6,8,97,zm_im,zm_im,zm_im,0,False
+zm6_6,9,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm6_6,10,97,zm_im,zm_im,zm_im,0,False
+zm6_7,1,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm6_7,2,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm6_7,3,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm6_7,4,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm6_7,5,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm6_7,6,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm6_7,7,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm6_7,8,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm6_7,9,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm6_7,10,97,zm_im,zm_im,zm_im,0,False
+zm6_8,1,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm6_8,2,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm6_8,3,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm6_8,4,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm6_8,5,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm6_8,6,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm6_8,7,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm6_8,8,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm6_8,9,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm6_8,10,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm6_9,1,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm6_9,2,97,zm_im,zm_im,zm_im,0,False
+zm6_9,3,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm6_9,4,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm6_9,5,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm6_9,6,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm6_9,7,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm6_9,8,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm6_9,9,97,zm_im,zm_im,zm_im,0,False
+zm6_9,10,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm7_1,1,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm7_1,2,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm7_1,3,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm7_1,4,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm7_1,5,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm7_1,6,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm7_1,7,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm7_1,8,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm7_1,9,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm7_1,10,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm7_10,1,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm7_10,2,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm7_10,3,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm7_10,4,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm7_10,5,97,zm_im,zm_im,zm_im,0,False
+zm7_10,6,97,zm_im,zm_im,zm_im,0,False
+zm7_10,7,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm7_10,8,97,zm_im,zm_im,zm_im,0,False
+zm7_10,9,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm7_10,10,97,zm_im,zm_im,zm_im,0,False
+zm7_11,1,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm7_11,2,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm7_11,3,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm7_11,4,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm7_11,5,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm7_11,6,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm7_11,7,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm7_11,8,97,zm_im,zm_im,zm_im,0,False
+zm7_11,9,97,zm_im,zm_im,zm_im,0,False
+zm7_11,10,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm7_12,1,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm7_12,2,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm7_12,3,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm7_12,4,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm7_12,5,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm7_12,6,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm7_12,7,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm7_12,8,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm7_12,9,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm7_12,10,97,zm_im,zm_im,zm_im,0,False
+zm7_2,1,97,zm_im,zm_im,zm_im,0,False
+zm7_2,2,97,zm_im,zm_im,zm_im,0,False
+zm7_2,3,97,zm_im,zm_im,zm_im,0,False
+zm7_2,4,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm7_2,5,97,zm_im,zm_im,zm_im,0,False
+zm7_2,6,97,zm_im,zm_im,zm_im,0,False
+zm7_3,1,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm7_3,2,97,zm_im,zm_im,zm_im,0,False
+zm7_3,3,97,zm_im,zm_im,zm_im,0,False
+zm7_3,4,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm7_3,5,97,zm_im,zm_im,zm_im,0,False
+zm7_3,6,97,zm_im,zm_im,zm_im,0,False
+zm7_3,7,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm7_3,8,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm7_4,1,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm7_4,2,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm7_4,3,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm7_4,4,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm7_4,5,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm7_4,6,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm7_4,7,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm7_4,8,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm7_4,9,97,zm_im,zm_im,zm_im,0,False
+zm7_4,10,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm7_5,1,97,zm_im,zm_im,zm_im,0,False
+zm7_5,2,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm7_5,3,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm7_5,4,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm7_5,5,97,zm_im,zm_im,zm_im,0,False
+zm7_5,6,97,zm_im,zm_im,zm_im,0,False
+zm7_5,7,97,zm_im,zm_im,zm_im,0,False
+zm7_5,8,97,zm_im,zm_im,zm_im,0,False
+zm7_5,9,97,zm_im,zm_im,zm_im,0,False
+zm7_5,10,97,zm_im,zm_im,zm_im,0,False
+zm7_6,1,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm7_6,2,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm7_6,3,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm7_6,4,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm7_6,5,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm7_6,6,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm7_6,7,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm7_6,8,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm7_6,9,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm7_6,10,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm7_7,1,97,zm_im,zm_im,zm_im,0,False
+zm7_7,2,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm7_7,3,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm7_7,4,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm7_7,5,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm7_7,6,97,zm_im,zm_im,zm_im,0,False
+zm7_7,7,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm7_7,8,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm7_7,9,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm7_7,10,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm7_8,1,97,zm_im,zm_im,zm_im,0,False
+zm7_8,2,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm7_8,3,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm7_8,4,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm7_8,5,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm7_8,6,97,zm_im,zm_im,zm_im,0,False
+zm7_8,7,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm7_8,8,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm7_8,9,97,zm_im,zm_el,zm_im -> zm_el -> zm_im -> zm_el,3,True
+zm7_8,10,97,zm_im,zm_im,zm_im,0,False
+zm7_9,1,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm7_9,2,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm7_9,3,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm7_9,4,97,zm_im,zm_im,zm_im,0,False
+zm7_9,5,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm7_9,6,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm7_9,7,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm7_9,8,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm7_9,9,97,zm_im,zm_el,zm_im -> zm_el,1,True
+zm7_9,10,97,zm_im,zm_el,zm_im -> zm_el,1,True

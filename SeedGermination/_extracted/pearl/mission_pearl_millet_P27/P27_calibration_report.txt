@@ -1,0 +1,20 @@
+======================================================================
+🌾 MISSION PEARL MILLET — P27
+FINAL MODEL PROBABILITY / CALIBRATION & RELIABILITY ANALYSIS
+======================================================================
+
+Test records: 170
+Brier score: 0.050603903
+Log loss: 0.350828774
+ROC-AUC: 0.918071576
+Expected Calibration Error: 0.055342596
+Mean absolute probability error: 0.062493200
+High-confidence errors: 7
+
+IMPORTANT:
+P27 is a diagnostic/calibration audit only.
+No model retraining was performed.
+No feature selection was performed.
+No hyperparameters were changed.
+No decision threshold was changed.
+P25 final deployment model remains untouched.

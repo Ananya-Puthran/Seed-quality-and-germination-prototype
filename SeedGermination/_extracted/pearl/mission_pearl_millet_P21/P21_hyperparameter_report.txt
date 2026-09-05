@@ -1,0 +1,36 @@
+MISSION PEARL MILLET — P21
+TRAINING-ONLY HISTGRADIENTBOOSTING REFINEMENT
+
+Training records: 654
+Sealed test records: 170
+Training groups: 65
+Feature count: 15
+
+P20 BASELINE
+F1: 0.968624
+ROC-AUC: 0.984965
+
+P21 REFINED MODEL
+learning_rate: 0.05
+max_iter: 400
+max_leaf_nodes: 15
+min_samples_leaf: 20
+l2_regularization: 0.1
+Accuracy: 0.946540
+Precision: 0.968034
+Recall: 0.969732
+F1: 0.968624
+ROC-AUC: 0.985427
+
+F1 change from P20: -0.000000
+ROC-AUC change from P20: +0.000462
+Decision: P21_NO_MEANINGFUL_F1_IMPROVEMENT
+
+TEST SET STATUS
+The 170 P17 test seeds remained sealed.
+No test labels were used.
+No final test evaluation was performed.
+No final deployment model was trained.
+No labels were changed.
+No tracking records were changed.
+No images were modified.

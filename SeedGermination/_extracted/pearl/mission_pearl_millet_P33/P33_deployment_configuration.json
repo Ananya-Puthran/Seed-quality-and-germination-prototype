@@ -1,0 +1,33 @@
+{
+    "mission": "MISSION PEARL MILLET",
+    "stage": "P33",
+    "model": "HistGradientBoosting",
+    "model_file": "/kaggle/working/mission_pearl_millet_P25/P25_final_histgradientboosting_model.pkl",
+    "feature_count": 15,
+    "locked_features": [
+        "width_change",
+        "mean_iou",
+        "height_change",
+        "area_change",
+        "std_center_x",
+        "std_center_y",
+        "std_iou",
+        "middle_mean_width",
+        "movement_std",
+        "median_movement",
+        "middle_mean_height",
+        "early_mean_area",
+        "max_movement",
+        "early_mean_width",
+        "middle_mean_area"
+    ],
+    "decision_threshold": 0.53,
+    "temporal_rule": "LONGEST_RUN_3",
+    "input": "97-frame tracked seed sequence",
+    "tracking_source": "P08_spatial_tracking.csv",
+    "feature_reference": "P15_seed_temporal_spatial_features.csv",
+    "feature_reproduction_validated": true,
+    "seeds_processed": 824,
+    "predicted_germinated": 709,
+    "predicted_non_germinated": 115
+}

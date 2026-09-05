@@ -1,0 +1,75 @@
+======================================================================
+🌾 MISSION PEARL MILLET — P15
+TEMPORAL + SPATIAL FEATURE ENGINEERING
+======================================================================
+
+Seeds: 824
+Groups: 82
+Frames per seed: 97
+Frame range: 1 → 97
+
+TEMPORAL EVENT RULE
+----------------------------------------------------------------------
+LONGEST_RUN_3
+GERMINATED if pg_el persists for at least 3 consecutive frames.
+
+Total engineered features: 46
+
+FEATURE LIST
+----------------------------------------------------------------------
+01. mean_movement
+02. median_movement
+03. max_movement
+04. movement_std
+05. std_center_x
+06. std_center_y
+07. range_center_x
+08. range_center_y
+09. max_center_x
+10. max_center_y
+11. mean_width
+12. std_width
+13. min_width
+14. max_width
+15. width_change
+16. mean_height
+17. std_height
+18. min_height
+19. max_height
+20. height_change
+21. mean_area
+22. std_area
+23. min_area
+24. max_area
+25. area_change
+26. mean_iou
+27. std_iou
+28. min_iou
+29. class_transition_count
+30. pg_el_count
+31. observed_pg_el
+32. first_pg_el_frame
+33. last_pg_el_frame
+34. longest_pg_el_run
+35. early_mean_width
+36. early_mean_height
+37. early_mean_area
+38. early_pg_el_count
+39. middle_mean_width
+40. middle_mean_height
+41. middle_mean_area
+42. middle_pg_el_count
+43. late_mean_width
+44. late_mean_height
+45. late_mean_area
+46. late_pg_el_count
+
+VALIDATION
+----------------------------------------------------------------------
+✓ Complete 97-frame tracks
+✓ Exact seed-set agreement
+✓ No missing feature values
+✓ No infinite feature values
+✓ LONGEST_RUN_3 reproduced exactly
+✓ Frozen targets preserved
+✓ No model trained

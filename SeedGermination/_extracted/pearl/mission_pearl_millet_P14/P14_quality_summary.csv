@@ -1,0 +1,16 @@
+check,value,status
+unique_seeds,824,PASS
+unique_groups,82,PASS
+complete_97_frame_tracks,824,PASS
+incomplete_tracks,0,PASS
+duplicate_seed_frames,0,PASS
+missing_tracking_values,0,PASS
+missing_frozen_values,0,PASS
+invalid_bounding_boxes,0,PASS
+geometry_mismatches,0,PASS
+center_mismatches,0,PASS
+unexpected_classes,0,PASS
+temporal_rule_mismatches,0,PASS
+label_mismatches,0,PASS
+target_label_mismatches,0,PASS
+duplicate_frozen_seeds,0,PASS

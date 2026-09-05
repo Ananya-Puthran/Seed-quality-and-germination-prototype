@@ -1,0 +1,76 @@
+======================================================================
+STAGE M30 — FINAL RESEARCH RESULT CONSOLIDATION
+======================================================================
+
+DATASET
+-------
+Images: 8148
+Temporal groups: 84
+Frames per group: 97
+Seed tracks: 814
+
+GROUND TRUTH
+------------
+Germinated: 629
+Non-germinated: 185
+
+TRAIN / TEST
+------------
+Training seeds: 649
+Testing seeds: 165
+Training groups: 67
+Testing groups: 17
+Group overlap: 0
+
+FINAL MODEL
+-----------
+Algorithm: Gradient Boosting
+Features: 16
+Observation window: 75% / frames 1-72
+Decision threshold: 0.425
+
+FINAL TEST PERFORMANCE
+-----------------------
+Accuracy: 87.88%
+Precision: 88.11%
+Recall: 97.67%
+F1: 92.65%
+ROC-AUC: 95.31%
+
+CONFUSION MATRIX
+----------------
+TN: 19
+FP: 17
+FN: 3
+TP: 126
+
+EARLY-PREDICTION RESULTS
+------------------------
+25%: Accuracy 79.39%, Recall 96.12%, F1 87.94%, ROC-AUC 61.18%
+50%: Accuracy 78.18%, Recall 96.12%, F1 87.32%, ROC-AUC 76.06%
+60%: Accuracy 80.00%, Recall 95.35%, F1 88.17%, ROC-AUC 83.72%
+75%: Accuracy 88.48%, Recall 96.90%, F1 92.94%, ROC-AUC 95.22%
+90%: Accuracy 92.73%, Recall 94.57%, F1 95.31%, ROC-AUC 98.28%
+
+PRIMARY OPERATING POINT
+------------------------
+75% observation / frames 1-72.
+This is the earliest evaluated window satisfying F1 >= 0.90 and ROC-AUC >= 0.90.
+
+LIMITATIONS
+-----------
+- The dataset contains 84 temporal groups.
+- All groups contain 97 frames.
+- Acquisition timestamps were not available.
+- Therefore duration_hours was not fabricated.
+- Rotation metadata was unavailable and was not fabricated.
+- The experiment is based on the available Mendeley Zea Mays dataset.
+- External-dataset generalization has not yet been demonstrated.
+- The reported performance should therefore be interpreted as dataset-specific.
+- Further validation on an independent external dataset would strengthen the study.
+
+DATA PROVENANCE
+---------------
+This final consolidation uses the current Mendeley-based pipeline only.
+No previous Stage 20 dataset was used.
+No previous project model was used.

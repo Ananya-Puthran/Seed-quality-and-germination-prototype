@@ -1,0 +1,71 @@
+======================================================================
+🌾 MISSION PEARL MILLET — P25
+FINAL MODEL TRAINING + SEALED TEST EVALUATION
+======================================================================
+
+MODEL
+HistGradientBoosting
+
+HYPERPARAMETERS
+learning_rate: 0.05
+max_iter: 400
+max_leaf_nodes: 15
+min_samples_leaf: 20
+l2_regularization: 0.1
+random_state: 42
+
+FEATURES
+01. width_change
+02. mean_iou
+03. height_change
+04. area_change
+05. std_center_x
+06. std_center_y
+07. std_iou
+08. middle_mean_width
+09. movement_std
+10. median_movement
+11. middle_mean_height
+12. early_mean_area
+13. max_movement
+14. early_mean_width
+15. middle_mean_area
+
+TEMPORAL RULE
+LONGEST_RUN_3
+
+DECISION THRESHOLD
+0.530000
+
+DATASET
+Training records: 654
+Test records: 170
+
+FINAL TEST METRICS
+Accuracy : 0.947059
+Precision: 0.966216
+Recall   : 0.972789
+F1       : 0.969492
+ROC-AUC  : 0.918072
+
+CONFUSION MATRIX
+TN: 18
+FP: 5
+FN: 4
+TP: 143
+
+CLASSIFICATION REPORT
+                precision    recall  f1-score   support
+
+NON-GERMINATED       0.82      0.78      0.80        23
+    GERMINATED       0.97      0.97      0.97       147
+
+      accuracy                           0.95       170
+     macro avg       0.89      0.88      0.88       170
+  weighted avg       0.95      0.95      0.95       170
+
+TEST-SET FIREWALL
+Test set was not used for model selection.
+Test set was not used for hyperparameter tuning.
+Test set was not used for threshold tuning.
+Final evaluation performed once after decision lock.

@@ -1,0 +1,2 @@
+accuracy,precision,recall,f1,roc_auc,true_negative,false_positive,false_negative,true_positive
+0.9030303030303031,0.937984496124031,0.937984496124031,0.937984496124031,0.9515503875968992,28,8,8,121

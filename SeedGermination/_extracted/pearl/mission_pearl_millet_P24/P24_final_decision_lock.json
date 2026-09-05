@@ -1,0 +1,69 @@
+{
+  "mission": "MISSION PEARL MILLET",
+  "stage": "P24",
+  "status": "FINAL_TRAINING_ONLY_DECISION_LOCK",
+  "dataset": {
+    "name": "PennisetumGlaucum",
+    "total_training_records": 654,
+    "sealed_test_records": 170,
+    "test_evaluation_performed": false
+  },
+  "target_definition": {
+    "rule": "LONGEST_RUN_3",
+    "minimum_pg_el_run": 3,
+    "description": "GERMINATED if the seed exhibits a pg_el run of at least 3 consecutive frames; otherwise NON-GERMINATED."
+  },
+  "features": {
+    "count": 15,
+    "feature_list": [
+      "width_change",
+      "mean_iou",
+      "height_change",
+      "area_change",
+      "std_center_x",
+      "std_center_y",
+      "std_iou",
+      "middle_mean_width",
+      "movement_std",
+      "median_movement",
+      "middle_mean_height",
+      "early_mean_area",
+      "max_movement",
+      "early_mean_width",
+      "middle_mean_area"
+    ],
+    "target_definition_features_excluded": true,
+    "feature_selection_locked": true
+  },
+  "model": {
+    "family": "HistGradientBoosting",
+    "hyperparameters": {
+      "learning_rate": 0.05,
+      "max_iter": 400,
+      "max_leaf_nodes": 15,
+      "min_samples_leaf": 20,
+      "l2_regularization": 0.1
+    }
+  },
+  "probability_policy": {
+    "threshold": 0.53,
+    "threshold_selection_method": "Maximum OOF F1; ties resolved by closest threshold to 0.50.",
+    "selected_from_test_set": false
+  },
+  "validation": {
+    "p20_model_selection_completed": true,
+    "p21_hyperparameter_refinement_completed": true,
+    "p22_probability_audit_completed": true,
+    "p23_threshold_analysis_completed": true,
+    "group_aware_cv": true,
+    "test_set_sealed": true
+  },
+  "prohibitions_after_lock": [
+    "Do not change the feature list using test results.",
+    "Do not change the model family using test results.",
+    "Do not change hyperparameters using test results.",
+    "Do not change threshold using test results.",
+    "Do not change the temporal target rule.",
+    "Do not retrain after inspecting final test labels."
+  ]
+}

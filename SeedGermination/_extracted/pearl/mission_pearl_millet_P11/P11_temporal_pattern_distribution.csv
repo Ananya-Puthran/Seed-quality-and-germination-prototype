@@ -1,0 +1,5 @@
+transition_sequence,seed_count
+pg_im -> pg_el,662
+pg_im,116
+pg_im -> pg_el -> pg_im -> pg_el,45
+pg_im -> pg_el -> pg_im -> pg_el -> pg_im -> pg_el,1

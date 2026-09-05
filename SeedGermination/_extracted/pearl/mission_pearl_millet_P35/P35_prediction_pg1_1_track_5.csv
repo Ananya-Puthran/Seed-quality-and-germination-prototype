@@ -1,0 +1,2 @@
+group,track_id,frames,germination_probability,non_germination_probability,predicted_target,predicted_label,confidence,decision_threshold,temporal_rule,pg_el_count,longest_pg_el_run,first_pg_el_frame,last_pg_el_frame,temporal_event
+pg1_1,5,97,0.9273757322075413,0.07262426779245867,1,GERMINATED,0.9273757322075413,0.53,LONGEST_RUN_3,0,0,,,False

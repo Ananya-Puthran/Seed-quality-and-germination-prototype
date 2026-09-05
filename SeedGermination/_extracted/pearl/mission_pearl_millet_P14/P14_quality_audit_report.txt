@@ -1,0 +1,54 @@
+======================================================================
+🌾 MISSION PEARL MILLET — P14
+FROZEN DATASET QUALITY CHECK + FEATURE-ENGINEERING INPUT AUDIT
+======================================================================
+
+DATASET SUMMARY
+----------------------------------------------------------------------
+Seeds              : 824
+Groups             : 82
+Frames per seed    : 97
+Frame range        : 1 → 97
+Classes            : ['pg_el', 'pg_im']
+
+FROZEN TARGET
+----------------------------------------------------------------------
+Rule: LONGEST_RUN_3
+GERMINATED if longest pg_el run >= 3 frames.
+
+QUALITY CHECKS
+----------------------------------------------------------------------
+unique_seeds: 824 [PASS]
+unique_groups: 82 [PASS]
+complete_97_frame_tracks: 824 [PASS]
+incomplete_tracks: 0 [PASS]
+duplicate_seed_frames: 0 [PASS]
+missing_tracking_values: 0 [PASS]
+missing_frozen_values: 0 [PASS]
+invalid_bounding_boxes: 0 [PASS]
+geometry_mismatches: 0 [PASS]
+center_mismatches: 0 [PASS]
+unexpected_classes: 0 [PASS]
+temporal_rule_mismatches: 0 [PASS]
+label_mismatches: 0 [PASS]
+target_label_mismatches: 0 [PASS]
+duplicate_frozen_seeds: 0 [PASS]
+
+FEATURE-ENGINEERING STATUS
+----------------------------------------------------------------------
+✓ P08 tracking validated.
+✓ P13 frozen targets validated.
+✓ Seed identity integrity validated.
+✓ 97-frame completeness validated.
+✓ Temporal ordering validated.
+✓ Bounding boxes validated.
+✓ Geometry validated.
+✓ Class labels validated.
+✓ Missing-value checks passed.
+✓ Duplicate checks passed.
+✓ Frozen labels preserved.
+✓ Feature-engineering input is ready.
+
+IMPORTANT
+----------------------------------------------------------------------
+P14 performs validation only. No labels, tracking records or images were modified. No machine-learning model was trained.

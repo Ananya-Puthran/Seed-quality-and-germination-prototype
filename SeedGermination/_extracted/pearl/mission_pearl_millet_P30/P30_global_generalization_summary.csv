@@ -1,0 +1,2 @@
+records,groups,accuracy,precision,recall,f1,roc_auc,tn,fp,fn,tp,total_errors,flagged_groups,mean_group_accuracy,std_group_accuracy,min_group_accuracy,max_group_accuracy,mean_group_f1,std_group_f1,min_group_f1,max_group_f1
+170,17,0.9470588235294116,0.9662162162162162,0.9727891156462584,0.9694915254237289,0.9180715764566696,18,5,4,143,9,2,0.9470588235294118,0.1067570083110678,0.6,1.0,0.9626725184000726,0.0779346528362153,0.7142857142857143,1.0

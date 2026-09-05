@@ -1,0 +1,34 @@
+MISSION PEARL MILLET — P37
+EXACT FEATURE EXTRACTION RECONCILIATION
+========================================
+
+P15 records: 824
+Reconstructed records: 824
+Feature count: 15
+Maximum feature difference: 3.552713678800501e-15
+Mean feature difference: 3.6221650734987004e-17
+Tolerance: 1e-10
+
+Deployment ready: True
+
+Locked features:
+01. width_change
+02. mean_iou
+03. height_change
+04. area_change
+05. std_center_x
+06. std_center_y
+07. std_iou
+08. middle_mean_width
+09. movement_std
+10. median_movement
+11. middle_mean_height
+12. early_mean_area
+13. max_movement
+14. early_mean_width
+15. middle_mean_area
+
+No model retraining performed.
+No hyperparameters modified.
+No threshold modified.
+No labels modified.

@@ -1,0 +1,18 @@
+{
+  "mission": "MISSION PEARL MILLET",
+  "stage": "P23",
+  "input": "/kaggle/working/mission_pearl_millet_P22/P22_oof_probabilities.csv",
+  "oof_records": 654,
+  "sealed_test_records": 170,
+  "test_set_used": false,
+  "threshold_range": [
+    0.05,
+    0.95
+  ],
+  "threshold_step": 0.01,
+  "primary_selection_metric": "F1",
+  "f1_tolerance": 1e-06,
+  "minimum_recall_constraint": 0.95,
+  "selected_threshold": 0.53,
+  "random_state": 42
+}

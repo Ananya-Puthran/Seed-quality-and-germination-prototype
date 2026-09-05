@@ -1,0 +1,30 @@
+metric,value
+Dataset,PennisetumGlaucum
+Total seeds,824
+Experimental groups,82
+Frames per seed,97
+Germinated seeds,708
+Non-germinated seeds,116
+Temporal rule,LONGEST_RUN_3
+Minimum pg_el run,3
+Locked features,15
+Final model,HistGradientBoosting
+Learning rate,0.05
+Max iterations,400
+Max leaf nodes,15
+Min samples leaf,20
+L2 regularization,0.1
+Decision threshold,0.53
+Training seeds,654
+Test seeds,170
+Test accuracy,0.9470588235294117
+Test precision,0.9662162162162162
+Test recall,0.9727891156462585
+Test F1,0.9694915254237287
+Test ROC-AUC,0.9180715764566696
+True negatives,18
+False positives,5
+False negatives,4
+True positives,143
+Total test errors,9
+High-confidence errors,7

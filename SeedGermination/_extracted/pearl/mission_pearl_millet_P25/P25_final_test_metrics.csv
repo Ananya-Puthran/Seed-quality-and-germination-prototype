@@ -1,0 +1,2 @@
+model,feature_count,training_records,test_records,threshold,accuracy,precision,recall,f1,roc_auc,true_negative,false_positive,false_negative,true_positive,correct_predictions,incorrect_predictions
+HistGradientBoosting,15,654,170,0.53,0.9470588235294117,0.9662162162162162,0.9727891156462585,0.9694915254237289,0.9180715764566696,18,5,4,143,161,9

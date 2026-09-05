@@ -1,0 +1,16 @@
+feature_order,feature,locked
+1,width_change,True
+2,mean_iou,True
+3,height_change,True
+4,area_change,True
+5,std_center_x,True
+6,std_center_y,True
+7,std_iou,True
+8,middle_mean_width,True
+9,movement_std,True
+10,median_movement,True
+11,middle_mean_height,True
+12,early_mean_area,True
+13,max_movement,True
+14,early_mean_width,True
+15,middle_mean_area,True

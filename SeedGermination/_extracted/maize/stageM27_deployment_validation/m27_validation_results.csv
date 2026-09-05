@@ -1,0 +1,24 @@
+check,status,details
+Final model,PASS,/kaggle/working/stageM25_final_model/m25_final_gradient_boosting.joblib
+Feature list,PASS,/kaggle/working/stageM25_final_model/m25_final_features.txt
+Configuration,PASS,/kaggle/working/stageM25_final_model/m25_model_config.json
+Final metrics,PASS,/kaggle/working/stageM25_final_model/m25_final_metrics.csv
+M25 predictions,PASS,/kaggle/working/stageM25_final_model/m25_test_predictions.csv
+Current test data,PASS,/kaggle/working/stageM18_feature_selection/stageM18_test_model_ready.csv
+M15 feature dataset,PASS,/kaggle/working/stageM15_features/stageM15_seed_features.csv
+Model loading,PASS,GradientBoostingClassifier
+Feature list,PASS,Exact 16-feature order
+Model feature count,PASS,16
+Threshold,PASS,0.425
+Test feature availability,PASS,All 16 features available
+Leakage check,PASS,No target columns in model input
+Missing values,PASS,0 missing values
+Input shape,PASS,"(165, 16)"
+Prediction reproducibility,PASS,max difference=0.0
+Fresh inference,PASS,165 predictions generated
+M25 prediction reproduction,PASS,Exact reproduction
+Threshold behavior,PASS,0.425
+Feature order,PASS,Exact exported order validated
+Model classes,PASS,"[0, 1]"
+Probability range,PASS,"[0, 1]"
+Deployment schema,PASS,16 features + threshold validated

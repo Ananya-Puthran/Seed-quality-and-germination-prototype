@@ -1,0 +1,11 @@
+metric,value
+total_seed_tracks,824
+unique_groups,82
+complete_97_frame_tracks,824
+germinated,708
+non_germinated,116
+pg_el_observed,708
+pg_el_not_observed,116
+reversal_tracks,46
+multiple_reversal_tracks,1
+final_class_rule_mismatches,0

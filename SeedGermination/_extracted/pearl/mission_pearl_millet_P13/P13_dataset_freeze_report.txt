@@ -1,0 +1,47 @@
+======================================================================
+🌾 MISSION PEARL MILLET — P13
+TEMPORAL EVENT-RULE DECISION + DATASET FREEZE
+======================================================================
+
+SELECTED TEMPORAL EVENT RULE
+----------------------------------------------------------------------
+Rule name       : LONGEST_RUN_3
+Run length      : 3 frames
+Description     : GERMINATED if the seed exhibits a pg_el run of at least 3 consecutive frames; otherwise NON-GERMINATED.
+
+VALIDATION RESULTS
+----------------------------------------------------------------------
+Seeds           : 824
+Groups          : 82
+Frames/seed     : 97
+GERMINATED      : 708
+NON-GERMINATED  : 116
+
+Accuracy        : 1.000000
+Precision       : 1.000000
+Recall          : 1.000000
+F1              : 1.000000
+TP              : 708
+TN              : 116
+FP              : 0
+FN              : 0
+
+DATASET FREEZE STATUS
+----------------------------------------------------------------------
+✓ Ground-truth labels preserved.
+✓ Tracking records preserved.
+✓ Images preserved.
+✓ No model trained.
+✓ Temporal event rule selected.
+✓ Seed-level dataset frozen.
+✓ P13 establishes the target definition for downstream stages.
+
+IMPORTANT METHODOLOGICAL DECISION
+----------------------------------------------------------------------
+The P10 ground-truth labels are preserved. The temporal event rule is an operational definition used for downstream feature engineering and prediction experiments.
+
+A seed is considered GERMINATED when its temporal sequence contains a run of at least 3 consecutive pg_el frames. Otherwise it is considered NON-GERMINATED.
+
+======================================================================
+🌾 MISSION PEARL MILLET — P13 FINISHED
+======================================================================

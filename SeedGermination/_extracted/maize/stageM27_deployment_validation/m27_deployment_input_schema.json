@@ -1,0 +1,33 @@
+{
+  "observation_window": "75% of sequence",
+  "number_of_features": 16,
+  "features": [
+    "median_movement",
+    "max_movement",
+    "movement_std",
+    "std_center_x",
+    "std_center_y",
+    "min_center_x",
+    "min_center_y",
+    "mean_height",
+    "max_width",
+    "max_height",
+    "height_change",
+    "width_growth_ratio",
+    "mean_area",
+    "max_area",
+    "area_growth_ratio",
+    "zm_el_count_75pct"
+  ],
+  "target_columns_excluded": [
+    "germination_target",
+    "final_label",
+    "first_transition_frame",
+    "ever_zm_el"
+  ],
+  "threshold": 0.425,
+  "positive_class": 1,
+  "positive_label": "GERMINATED",
+  "negative_class": 0,
+  "negative_label": "NON-GERMINATED"
+}

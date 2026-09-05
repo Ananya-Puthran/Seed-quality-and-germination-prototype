@@ -1,0 +1,15 @@
+🌾 MISSION PEARL MILLET — P08
+SPATIAL SEED TRACKING RECONSTRUCTION
+======================================================================
+
+Groups: 82
+Tracking records: 79928
+Assignment records: 79104
+Complete tracks: 824
+Incomplete tracks: 0
+
+Mean match distance: 0.542909
+Median match distance: 0.000000
+Maximum match distance: 38.564880
+
+Object-index changes: 1735

@@ -1,0 +1,2 @@
+model,learning_rate,max_iter,max_leaf_nodes,min_samples_leaf,l2_regularization,threshold,temporal_rule,test_set_used
+HistGradientBoosting,0.05,400,15,20,0.1,0.53,LONGEST_RUN_3,False

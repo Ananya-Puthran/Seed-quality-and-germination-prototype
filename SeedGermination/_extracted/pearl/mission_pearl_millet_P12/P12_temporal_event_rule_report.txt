@@ -1,0 +1,122 @@
+======================================================================
+MISSION PEARL MILLET — P12
+TEMPORAL GERMINATION-EVENT RULE ANALYSIS
+======================================================================
+
+DATASET
+----------------------------------------------------------------------
+Seed tracks: 824
+GERMINATED: 708
+NON-GERMINATED: 116
+
+TEMPORAL REVERSALS
+----------------------------------------------------------------------
+Reversal tracks: 46
+Non-reversal tracks: 778
+
+RULE COMPARISON
+----------------------------------------------------------------------
+                rule                     criterion  accuracy  precision   recall       f1  tp  tn  fp  fn
+       LONGEST_RUN_2        longest_pg_el_run >= 2  1.000000        1.0 1.000000 1.000000 708 116   0   0
+       LONGEST_RUN_3        longest_pg_el_run >= 3  1.000000        1.0 1.000000 1.000000 708 116   0   0
+         FINAL_RUN_2          final_pg_el_run >= 2  1.000000        1.0 1.000000 1.000000 708 116   0   0
+         FINAL_RUN_3          final_pg_el_run >= 3  1.000000        1.0 1.000000 1.000000 708 116   0   0
+       LONGEST_RUN_5        longest_pg_el_run >= 5  0.998786        1.0 0.998588 0.999293 707 116   0   1
+         FINAL_RUN_5          final_pg_el_run >= 5  0.998786        1.0 0.998588 0.999293 707 116   0   1
+       FRACTION_0.05        pg_el_fraction >= 0.05  0.998786        1.0 0.998588 0.999293 707 116   0   1
+   PG_EL_BY_FRAME_90       first_pg_el_frame <= 90  0.997573        1.0 0.997175 0.998586 706 116   0   2
+      LONGEST_RUN_10       longest_pg_el_run >= 10  0.996359        1.0 0.995763 0.997877 705 116   0   3
+        FINAL_RUN_10         final_pg_el_run >= 10  0.996359        1.0 0.995763 0.997877 705 116   0   3
+       FRACTION_0.10        pg_el_fraction >= 0.10  0.996359        1.0 0.995763 0.997877 705 116   0   3
+   PG_EL_BY_FRAME_84       first_pg_el_frame <= 84  0.992718        1.0 0.991525 0.995745 702 116   0   6
+      LONGEST_RUN_15       longest_pg_el_run >= 15  0.991505        1.0 0.990113 0.995032 701 116   0   7
+        FINAL_RUN_15         final_pg_el_run >= 15  0.991505        1.0 0.990113 0.995032 701 116   0   7
+       FRACTION_0.15        pg_el_fraction >= 0.15  0.991505        1.0 0.990113 0.995032 701 116   0   7
+      LONGEST_RUN_20       longest_pg_el_run >= 20  0.986650        1.0 0.984463 0.992171 697 116   0  11
+        FINAL_RUN_20         final_pg_el_run >= 20  0.986650        1.0 0.984463 0.992171 697 116   0  11
+       FRACTION_0.20        pg_el_fraction >= 0.20  0.986650        1.0 0.984463 0.992171 697 116   0  11
+      LONGEST_RUN_25       longest_pg_el_run >= 25  0.981796        1.0 0.978814 0.989293 693 116   0  15
+        FINAL_RUN_25         final_pg_el_run >= 25  0.981796        1.0 0.978814 0.989293 693 116   0  15
+       FRACTION_0.25        pg_el_fraction >= 0.25  0.981796        1.0 0.978814 0.989293 693 116   0  15
+   PG_EL_BY_FRAME_72       first_pg_el_frame <= 72  0.981796        1.0 0.978814 0.989293 693 116   0  15
+      LONGEST_RUN_30       longest_pg_el_run >= 30  0.978155        1.0 0.974576 0.987124 690 116   0  18
+        FINAL_RUN_30         final_pg_el_run >= 30  0.978155        1.0 0.974576 0.987124 690 116   0  18
+       FRACTION_0.30        pg_el_fraction >= 0.30  0.978155        1.0 0.974576 0.987124 690 116   0  18
+       FRACTION_0.40        pg_el_fraction >= 0.40  0.959951        1.0 0.953390 0.976139 675 116   0  33
+   PG_EL_BY_FRAME_60       first_pg_el_frame <= 60  0.959951        1.0 0.953390 0.976139 675 116   0  33
+ FIRST_PERSISTENCE_2  first_pg_el_persistence >= 2  0.951456        1.0 0.943503 0.970930 668 116   0  40
+ FIRST_PERSISTENCE_3  first_pg_el_persistence >= 3  0.947816        1.0 0.939266 0.968682 665 116   0  43
+ FIRST_PERSISTENCE_5  first_pg_el_persistence >= 5  0.944175        1.0 0.935028 0.966423 662 116   0  46
+FIRST_PERSISTENCE_10 first_pg_el_persistence >= 10  0.940534        1.0 0.930791 0.964155 659 116   0  49
+FIRST_PERSISTENCE_15 first_pg_el_persistence >= 15  0.935680        1.0 0.925141 0.961115 655 116   0  53
+FIRST_PERSISTENCE_20 first_pg_el_persistence >= 20  0.932039        1.0 0.920904 0.958824 652 116   0  56
+       FRACTION_0.50        pg_el_fraction >= 0.50  0.923544        1.0 0.911017 0.953437 645 116   0  63
+   PG_EL_BY_FRAME_48       first_pg_el_frame <= 48  0.921117        1.0 0.908192 0.951887 643 116   0  65
+       FRACTION_0.60        pg_el_fraction >= 0.60  0.856796        1.0 0.833333 0.909091 590 116   0 118
+   PG_EL_BY_FRAME_36       first_pg_el_frame <= 36  0.805825        1.0 0.774011 0.872611 548 116   0 160
+       FRACTION_0.70        pg_el_fraction >= 0.70  0.671117        1.0 0.617232 0.763319 437 116   0 271
+   PG_EL_BY_FRAME_24       first_pg_el_frame <= 24  0.479369        1.0 0.394068 0.565350 279 116   0 429
+       FRACTION_0.80        pg_el_fraction >= 0.80  0.356796        1.0 0.251412 0.401806 178 116   0 530
+   PG_EL_BY_FRAME_12       first_pg_el_frame <= 12  0.168689        1.0 0.032486 0.062927  23 116   0 685
+       FRACTION_0.90        pg_el_fraction >= 0.90  0.150485        1.0 0.011299 0.022346   8 116   0 700
+
+ZERO FALSE POSITIVE RULES
+----------------------------------------------------------------------
+                rule                     criterion  accuracy  precision   recall       f1  tp  tn  fp  fn
+       LONGEST_RUN_2        longest_pg_el_run >= 2  1.000000        1.0 1.000000 1.000000 708 116   0   0
+       LONGEST_RUN_3        longest_pg_el_run >= 3  1.000000        1.0 1.000000 1.000000 708 116   0   0
+         FINAL_RUN_2          final_pg_el_run >= 2  1.000000        1.0 1.000000 1.000000 708 116   0   0
+         FINAL_RUN_3          final_pg_el_run >= 3  1.000000        1.0 1.000000 1.000000 708 116   0   0
+       LONGEST_RUN_5        longest_pg_el_run >= 5  0.998786        1.0 0.998588 0.999293 707 116   0   1
+         FINAL_RUN_5          final_pg_el_run >= 5  0.998786        1.0 0.998588 0.999293 707 116   0   1
+       FRACTION_0.05        pg_el_fraction >= 0.05  0.998786        1.0 0.998588 0.999293 707 116   0   1
+   PG_EL_BY_FRAME_90       first_pg_el_frame <= 90  0.997573        1.0 0.997175 0.998586 706 116   0   2
+      LONGEST_RUN_10       longest_pg_el_run >= 10  0.996359        1.0 0.995763 0.997877 705 116   0   3
+        FINAL_RUN_10         final_pg_el_run >= 10  0.996359        1.0 0.995763 0.997877 705 116   0   3
+       FRACTION_0.10        pg_el_fraction >= 0.10  0.996359        1.0 0.995763 0.997877 705 116   0   3
+   PG_EL_BY_FRAME_84       first_pg_el_frame <= 84  0.992718        1.0 0.991525 0.995745 702 116   0   6
+      LONGEST_RUN_15       longest_pg_el_run >= 15  0.991505        1.0 0.990113 0.995032 701 116   0   7
+        FINAL_RUN_15         final_pg_el_run >= 15  0.991505        1.0 0.990113 0.995032 701 116   0   7
+       FRACTION_0.15        pg_el_fraction >= 0.15  0.991505        1.0 0.990113 0.995032 701 116   0   7
+      LONGEST_RUN_20       longest_pg_el_run >= 20  0.986650        1.0 0.984463 0.992171 697 116   0  11
+        FINAL_RUN_20         final_pg_el_run >= 20  0.986650        1.0 0.984463 0.992171 697 116   0  11
+       FRACTION_0.20        pg_el_fraction >= 0.20  0.986650        1.0 0.984463 0.992171 697 116   0  11
+      LONGEST_RUN_25       longest_pg_el_run >= 25  0.981796        1.0 0.978814 0.989293 693 116   0  15
+        FINAL_RUN_25         final_pg_el_run >= 25  0.981796        1.0 0.978814 0.989293 693 116   0  15
+       FRACTION_0.25        pg_el_fraction >= 0.25  0.981796        1.0 0.978814 0.989293 693 116   0  15
+   PG_EL_BY_FRAME_72       first_pg_el_frame <= 72  0.981796        1.0 0.978814 0.989293 693 116   0  15
+      LONGEST_RUN_30       longest_pg_el_run >= 30  0.978155        1.0 0.974576 0.987124 690 116   0  18
+        FINAL_RUN_30         final_pg_el_run >= 30  0.978155        1.0 0.974576 0.987124 690 116   0  18
+       FRACTION_0.30        pg_el_fraction >= 0.30  0.978155        1.0 0.974576 0.987124 690 116   0  18
+       FRACTION_0.40        pg_el_fraction >= 0.40  0.959951        1.0 0.953390 0.976139 675 116   0  33
+   PG_EL_BY_FRAME_60       first_pg_el_frame <= 60  0.959951        1.0 0.953390 0.976139 675 116   0  33
+ FIRST_PERSISTENCE_2  first_pg_el_persistence >= 2  0.951456        1.0 0.943503 0.970930 668 116   0  40
+ FIRST_PERSISTENCE_3  first_pg_el_persistence >= 3  0.947816        1.0 0.939266 0.968682 665 116   0  43
+ FIRST_PERSISTENCE_5  first_pg_el_persistence >= 5  0.944175        1.0 0.935028 0.966423 662 116   0  46
+FIRST_PERSISTENCE_10 first_pg_el_persistence >= 10  0.940534        1.0 0.930791 0.964155 659 116   0  49
+FIRST_PERSISTENCE_15 first_pg_el_persistence >= 15  0.935680        1.0 0.925141 0.961115 655 116   0  53
+FIRST_PERSISTENCE_20 first_pg_el_persistence >= 20  0.932039        1.0 0.920904 0.958824 652 116   0  56
+       FRACTION_0.50        pg_el_fraction >= 0.50  0.923544        1.0 0.911017 0.953437 645 116   0  63
+   PG_EL_BY_FRAME_48       first_pg_el_frame <= 48  0.921117        1.0 0.908192 0.951887 643 116   0  65
+       FRACTION_0.60        pg_el_fraction >= 0.60  0.856796        1.0 0.833333 0.909091 590 116   0 118
+   PG_EL_BY_FRAME_36       first_pg_el_frame <= 36  0.805825        1.0 0.774011 0.872611 548 116   0 160
+       FRACTION_0.70        pg_el_fraction >= 0.70  0.671117        1.0 0.617232 0.763319 437 116   0 271
+   PG_EL_BY_FRAME_24       first_pg_el_frame <= 24  0.479369        1.0 0.394068 0.565350 279 116   0 429
+       FRACTION_0.80        pg_el_fraction >= 0.80  0.356796        1.0 0.251412 0.401806 178 116   0 530
+   PG_EL_BY_FRAME_12       first_pg_el_frame <= 12  0.168689        1.0 0.032486 0.062927  23 116   0 685
+       FRACTION_0.90        pg_el_fraction >= 0.90  0.150485        1.0 0.011299 0.022346   8 116   0 700
+
+PERFECT AGREEMENT RULES
+----------------------------------------------------------------------
+         rule              criterion  accuracy  precision  recall  f1  tp  tn  fp  fn
+LONGEST_RUN_2 longest_pg_el_run >= 2       1.0        1.0     1.0 1.0 708 116   0   0
+LONGEST_RUN_3 longest_pg_el_run >= 3       1.0        1.0     1.0 1.0 708 116   0   0
+  FINAL_RUN_2   final_pg_el_run >= 2       1.0        1.0     1.0 1.0 708 116   0   0
+  FINAL_RUN_3   final_pg_el_run >= 3       1.0        1.0     1.0 1.0 708 116   0   0
+
+GROUND-TRUTH POLICY
+----------------------------------------------------------------------
+P10 ground truth was not modified.
+No labels were changed.
+No tracking records were changed.
+No model was trained.

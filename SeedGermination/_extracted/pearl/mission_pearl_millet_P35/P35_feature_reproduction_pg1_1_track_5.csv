@@ -1,0 +1,16 @@
+feature,p15_value,reconstructed_value,absolute_difference,within_tolerance
+width_change,3.0,3.0,0.0,True
+mean_iou,0.997483583321998,0.997483583321998,0.0,True
+height_change,4.0,4.0,0.0,True
+area_change,267.0,267.0,0.0,True
+std_center_x,0.1703372334212196,0.17033723342121965,5.551115123125783e-17,True
+std_center_y,0.2152640517301144,0.21526405173011445,5.551115123125783e-17,True
+std_iou,0.0112716241242459,0.011271624124245969,6.938893903907228e-17,True
+middle_mean_width,41.96875,41.96875,0.0,True
+movement_std,0.1927224804862573,0.19272248048625737,5.551115123125783e-17,True
+median_movement,0.0,0.0,0.0,True
+middle_mean_height,37.0,37.0,0.0,True
+early_mean_area,1401.71875,1401.71875,0.0,True
+max_movement,1.5,1.5,0.0,True
+early_mean_width,39.75,39.75,0.0,True
+middle_mean_area,1552.84375,1552.84375,0.0,True

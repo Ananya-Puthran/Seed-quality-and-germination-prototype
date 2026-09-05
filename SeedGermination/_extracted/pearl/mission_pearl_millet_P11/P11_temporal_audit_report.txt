@@ -1,0 +1,32 @@
+======================================================================
+🌾 MISSION PEARL MILLET — P11
+SEED-LEVEL TEMPORAL VISUALIZATION & GROUND-TRUTH AUDIT
+======================================================================
+
+DATA SUMMARY
+----------------------------------------------------------------------
+Seed tracks: 824
+Groups: 82
+Complete 97-frame tracks: 824
+GERMINATED: 708
+NON-GERMINATED: 116
+
+TEMPORAL BEHAVIOR
+----------------------------------------------------------------------
+pg_el observed: 708
+pg_el not observed: 116
+pg_el -> pg_im reversal tracks: 46
+Multiple reversal tracks: 1
+
+FINAL CLASS RULE AUDIT
+----------------------------------------------------------------------
+Rule mismatches: 0
+Rule accuracy: 1.000000
+
+IMPORTANT
+----------------------------------------------------------------------
+P11 is an audit stage only.
+No labels were modified.
+No tracking records were modified.
+No model was trained.
+No previous Pearl Millet model results were used.

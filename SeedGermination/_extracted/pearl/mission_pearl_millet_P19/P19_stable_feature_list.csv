@@ -1,0 +1,16 @@
+feature,stable_feature_rank
+width_change,1
+mean_iou,2
+height_change,3
+area_change,4
+std_center_x,5
+std_center_y,6
+std_iou,7
+middle_mean_width,8
+movement_std,9
+median_movement,10
+middle_mean_height,11
+early_mean_area,12
+max_movement,13
+early_mean_width,14
+middle_mean_area,15

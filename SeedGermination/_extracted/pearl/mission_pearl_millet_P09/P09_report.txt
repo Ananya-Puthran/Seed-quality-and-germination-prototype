@@ -1,0 +1,24 @@
+🌾 MISSION PEARL MILLET — P09
+TRACK QUALITY & IDENTITY VALIDATION
+======================================================================
+
+Groups: 82
+Tracks: 824
+Tracking records: 79928
+Complete tracks: 824
+Incomplete tracks: 0
+
+Mean assignment distance: 0.542909
+Median assignment distance: 0.000000
+Maximum assignment distance: 38.564880
+
+Assignments >10 px: 32
+Assignments >20 px: 2
+Assignments >30 px: 1
+
+Object-index changes: 1735
+Object-index agreement: 97.8067%
+
+Tracks containing pg_el: 708
+Tracks without pg_el: 116
+Tracks with >1 class transition: 46

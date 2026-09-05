@@ -1,0 +1,9 @@
+feature,germinated_mean,non_germinated_mean,germinated_min,germinated_max,non_germinated_min,non_germinated_max,unique_germinated,unique_non_germinated
+pg_el_count,68.09322033898304,0.0,4,95,0,0,73,1
+observed_pg_el,1.0,0.0,1,1,0,0,1,1
+first_pg_el_frame,29.8135593220339,0.0,3,94,0,0,74,1
+last_pg_el_frame,97.0,0.0,97,97,0,0,1,1
+longest_pg_el_run,68.00706214689265,0.0,4,95,0,0,74,1
+early_pg_el_count,7.1158192090395485,0.0,0,30,0,0,27,1
+middle_pg_el_count,28.387005649717516,0.0,0,32,0,0,32,1
+late_pg_el_count,32.590395480225986,0.0,4,33,0,0,16,1

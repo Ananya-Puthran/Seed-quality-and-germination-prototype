@@ -1,0 +1,37 @@
+{
+  "mission": "MISSION PEARL MILLET",
+  "stage": "P16",
+  "input_stage": "P15",
+  "records": 824,
+  "features_audited": 46,
+  "identifier_columns": [
+    "group",
+    "track_id"
+  ],
+  "target_columns": [
+    "germination_target",
+    "final_label"
+  ],
+  "total_missing_values": 0,
+  "total_infinite_values": 0,
+  "constant_feature_count": 0,
+  "near_constant_99pct_count": 0,
+  "near_constant_95pct_count": 0,
+  "high_correlation_pair_count": 55,
+  "very_high_correlation_pair_count": 7,
+  "perfect_target_separation_count": 7,
+  "target_definition_related_features": [
+    "pg_el_count",
+    "observed_pg_el",
+    "first_pg_el_frame",
+    "last_pg_el_frame",
+    "longest_pg_el_run",
+    "early_pg_el_count",
+    "middle_pg_el_count",
+    "late_pg_el_count"
+  ],
+  "model_trained": false,
+  "labels_modified": false,
+  "tracking_modified": false,
+  "images_modified": false
+}

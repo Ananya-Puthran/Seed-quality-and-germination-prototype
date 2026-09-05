@@ -1,0 +1,2 @@
+rule,criterion,accuracy,precision,recall,f1,tp,tn,fp,fn,selected,reason
+LONGEST_RUN_3,longest_pg_el_run >= 3,1.0,1.0,1.0,1.0,708,116,0,0,True,Perfect agreement with P10 ground truth while requiring temporal persistence.

@@ -1,0 +1,38 @@
+{
+    "stage": "M28",
+    "dataset": "Mendeley ZeaMays",
+    "model": "GradientBoostingClassifier",
+    "n_estimators": 200,
+    "learning_rate": 0.05,
+    "max_depth": 3,
+    "random_state": 42,
+    "threshold": 0.425,
+    "windows": {
+        "25pct": 24,
+        "50pct": 48,
+        "60pct": 58,
+        "75pct": 72,
+        "90pct": 87
+    },
+    "features": [
+        "median_movement",
+        "max_movement",
+        "movement_std",
+        "std_center_x",
+        "std_center_y",
+        "min_center_x",
+        "min_center_y",
+        "mean_height",
+        "max_width",
+        "max_height",
+        "height_change",
+        "width_growth_ratio",
+        "mean_area",
+        "max_area",
+        "area_growth_ratio",
+        "zm_el_count_window"
+    ],
+    "train_split": "M17 group-aware split",
+    "previous_model_used": "No \u2014 model retrained independently for each window",
+    "previous_dataset_used": "No"
+}

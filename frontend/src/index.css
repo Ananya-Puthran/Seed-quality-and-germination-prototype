@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    background-color: #ffffff;
+    color: #1e293b;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Outfit', 'Inter', sans-serif;
+    color: #14532d; /* dark green */
+  }
+}
+
+/* Custom subtle card styles */
+.agri-card {
+  background-color: #ffffff;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05);
+}
+
+.agri-card-hover {
+  transition: all 0.2s ease-in-out;
+}
+
+.agri-card-hover:hover {
+  border-color: #16a34a;
+  box-shadow: 0 4px 12px -2px rgba(22, 163, 74, 0.12);
+}

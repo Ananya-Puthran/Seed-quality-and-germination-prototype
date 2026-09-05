@@ -1,0 +1,30 @@
+🌾 MISSION PEARL MILLET — P16
+FEATURE QUALITY, REDUNDANCY AND LEAKAGE AUDIT
+
+Seed records: 824
+Features audited: 46
+
+Missing values: 0
+Infinite values: 0
+Constant features: 0
+Near-constant >=99%: 0
+High-correlation pairs >=0.90: 55
+Very-high-correlation pairs >=0.99: 7
+Perfect target separation features: 7
+
+Target-definition-related features:
+  - pg_el_count
+  - observed_pg_el
+  - first_pg_el_frame
+  - last_pg_el_frame
+  - longest_pg_el_run
+  - early_pg_el_count
+  - middle_pg_el_count
+  - late_pg_el_count
+
+IMPORTANT:
+P16 is an audit stage only.
+No feature was removed.
+No labels were modified.
+No tracking records were modified.
+No model was trained.

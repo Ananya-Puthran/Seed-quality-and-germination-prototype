@@ -1,0 +1,2 @@
+learning_rate,max_iter,max_leaf_nodes,min_samples_leaf,l2_regularization,cv_accuracy,cv_precision,cv_recall,cv_f1,cv_f1_std,cv_roc_auc,cv_roc_auc_std
+0.05,400,15,20,0.1,0.9465403298991084,0.9680344070990923,0.9697324510171017,0.9686243733341143,0.01711107353043549,0.9854268387120106,0.0068529757426117255

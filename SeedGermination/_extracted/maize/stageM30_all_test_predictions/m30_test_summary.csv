@@ -1,0 +1,11 @@
+Metric,Value
+Test Seeds,165.0000
+Threshold,0.4250
+True Positive,116.0000
+True Negative,29.0000
+False Positive,7.0000
+False Negative,13.0000
+Accuracy,0.8788
+Precision,0.9431
+Recall,0.8992
+F1,0.9206

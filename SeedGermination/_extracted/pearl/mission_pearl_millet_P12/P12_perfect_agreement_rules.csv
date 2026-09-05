@@ -1,0 +1,5 @@
+rule,criterion,accuracy,precision,recall,f1,tp,tn,fp,fn
+LONGEST_RUN_2,longest_pg_el_run >= 2,1.0,1.0,1.0,1.0,708,116,0,0
+LONGEST_RUN_3,longest_pg_el_run >= 3,1.0,1.0,1.0,1.0,708,116,0,0
+FINAL_RUN_2,final_pg_el_run >= 2,1.0,1.0,1.0,1.0,708,116,0,0
+FINAL_RUN_3,final_pg_el_run >= 3,1.0,1.0,1.0,1.0,708,116,0,0

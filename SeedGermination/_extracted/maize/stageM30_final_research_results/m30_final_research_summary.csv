@@ -1,0 +1,19 @@
+category,metric,value
+Dataset,Images,8148
+Dataset,Temporal groups,84
+Dataset,Frames per group,97
+Ground Truth,Seed tracks,814
+Ground Truth,Germinated,629
+Ground Truth,Non-germinated,185
+Observation,Primary window,75% / frames 1-72
+Model,Algorithm,Gradient Boosting
+Model,Features,16
+Test,Accuracy,0.8788
+Test,Precision,0.8811
+Test,Recall,0.9767
+Test,F1,0.9265
+Test,ROC-AUC,0.9531
+Early Prediction,75% F1,0.9294
+Early Prediction,75% ROC-AUC,0.9522
+Early Prediction,90% F1,0.9531
+Early Prediction,90% ROC-AUC,0.9828

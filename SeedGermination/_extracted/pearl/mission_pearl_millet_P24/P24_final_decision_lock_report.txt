@@ -1,0 +1,48 @@
+======================================================================
+🌾 MISSION PEARL MILLET — P24
+FINAL TRAINING-ONLY DECISION LOCK
+======================================================================
+
+LOCKED TEMPORAL RULE
+LONGEST_RUN_3
+
+LOCKED FEATURES
+01. width_change
+02. mean_iou
+03. height_change
+04. area_change
+05. std_center_x
+06. std_center_y
+07. std_iou
+08. middle_mean_width
+09. movement_std
+10. median_movement
+11. middle_mean_height
+12. early_mean_area
+13. max_movement
+14. early_mean_width
+15. middle_mean_area
+
+LOCKED MODEL
+Model: HistGradientBoosting
+learning_rate: 0.05
+max_iter: 400
+max_leaf_nodes: 15
+min_samples_leaf: 20
+l2_regularization: 0.1
+
+LOCKED THRESHOLD
+0.53
+
+TEST-SET FIREWALL
+Test records: 170
+Test evaluation performed: NO
+Test labels used for decisions: NO
+
+FINAL STATUS
+Features locked: YES
+Model locked: YES
+Hyperparameters locked: YES
+Threshold locked: YES
+Temporal rule locked: YES
+Test set sealed: YES

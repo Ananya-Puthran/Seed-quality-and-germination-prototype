@@ -1,0 +1,34 @@
+======================================================================
+🌾 MISSION PEARL MILLET — P26
+FINAL MODEL DIAGNOSTICS + ERROR ANALYSIS
+======================================================================
+
+MODEL
+HistGradientBoosting
+
+THRESHOLD
+0.53
+
+TEST RECORDS
+170
+
+ERROR SUMMARY
+Correct predictions : 161
+Incorrect predictions: 9
+False positives     : 5
+False negatives     : 4
+Overall error rate  : 0.052941
+Overall accuracy    : 0.947059
+
+HIGH-CONFIDENCE ERRORS
+7
+
+BORDERLINE ERRORS
+1
+
+IMPORTANT
+P26 is diagnostic only.
+No model was retrained.
+No hyperparameters were changed.
+No threshold was changed.
+No features were changed.

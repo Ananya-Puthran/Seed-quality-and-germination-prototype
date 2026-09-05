@@ -1,0 +1,32 @@
+{
+    "model": "GradientBoostingClassifier",
+    "n_estimators": 200,
+    "learning_rate": 0.05,
+    "max_depth": 3,
+    "random_state": 42,
+    "threshold": 0.425,
+    "observation_window": "frames_1_to_72",
+    "number_of_features": 16,
+    "features": [
+        "median_movement",
+        "max_movement",
+        "movement_std",
+        "std_center_x",
+        "std_center_y",
+        "min_center_x",
+        "min_center_y",
+        "mean_height",
+        "max_width",
+        "max_height",
+        "height_change",
+        "width_growth_ratio",
+        "mean_area",
+        "max_area",
+        "area_growth_ratio",
+        "zm_el_count_75pct"
+    ],
+    "target": "germination_target",
+    "dataset": "Mendeley ZeaMays",
+    "previous_model_used": false,
+    "previous_dataset_used": false
+}

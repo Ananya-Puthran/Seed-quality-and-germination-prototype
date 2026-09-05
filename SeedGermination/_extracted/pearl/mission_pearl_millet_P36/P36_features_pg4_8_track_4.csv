@@ -1,0 +1,16 @@
+feature,value
+width_change,70.0
+mean_iou,0.973652059621409
+height_change,61.0
+area_change,9108.0
+std_center_x,4.769765639696114
+std_center_y,4.598013267381311
+std_iou,0.030007646987262625
+middle_mean_width,47.375
+movement_std,0.5347040579702699
+median_movement,0.5
+middle_mean_height,43.15625
+early_mean_area,1680.71875
+max_movement,2.0615528128088303
+early_mean_width,43.84375
+middle_mean_area,2045.3125

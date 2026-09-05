@@ -1,0 +1,98 @@
+======================================================================
+🌾 MISSION PEARL MILLET — P29
+FINAL ERROR CASE STUDY + BIOLOGICAL / TEMPORAL PATTERN AUDIT
+======================================================================
+
+Test records: 170
+Errors: 9
+False positives: 5
+False negatives: 4
+High-confidence errors: 7
+
+LOCKED FEATURES
+01. width_change
+02. mean_iou
+03. height_change
+04. area_change
+05. std_center_x
+06. std_center_y
+07. std_iou
+08. middle_mean_width
+09. movement_std
+10. median_movement
+11. middle_mean_height
+12. early_mean_area
+13. max_movement
+14. early_mean_width
+15. middle_mean_area
+
+
+ERROR GROUP SUMMARY
+group  error_count  false_positives  false_negatives  mean_probability  mean_confidence
+pg1_1            2                1                1          0.497086         0.930290
+pg1_8            4                3                1          0.750321         0.999644
+pg2_8            1                1                0          0.997962         0.997962
+pg3_2            1                0                1          0.182186         0.817814
+pg3_8            1                0                1          0.329776         0.670224
+
+TEMPORAL COMPARISON
+          feature  error_mean  correct_mean  difference  error_median  correct_median  error_min  error_max  correct_min  correct_max
+      pg_el_count   27.888889     60.751553  -32.862664           0.0            70.0          0         75            0           95
+longest_pg_el_run   27.666667     60.664596  -32.997930           0.0            69.0          0         75            0           95
+
+FEATURE COMPARISON
+           feature  error_mean  correct_mean   difference  error_median  correct_median   error_min    error_max  correct_min  correct_max
+      width_change   24.222222     59.161491   -34.939268      3.000000       41.000000    0.000000   101.000000    -5.000000   277.000000
+          mean_iou    0.988275      0.975890     0.012385      0.995322        0.972861    0.957957     0.999733     0.950290     0.999107
+     height_change   31.555556     60.099379   -28.543823      2.000000       50.000000   -1.000000   223.000000    -3.000000   349.000000
+       area_change 4811.111111   9821.695652 -5010.584541    267.000000     5830.000000  -39.000000 30773.000000   -99.000000 66287.000000
+      std_center_x    3.223670      6.281996    -3.058325      0.860809        3.809428    0.170337    14.299816     0.101010    36.542454
+      std_center_y    4.463940      6.341462    -1.877522      0.597360        4.027327    0.000000    34.209338     0.000000    35.401305
+           std_iou    0.021031      0.037434    -0.016404      0.019644        0.037225    0.002603     0.035461     0.004971     0.090136
+ middle_mean_width   42.368056     46.006017    -3.637962     41.750000       43.781250   39.000000    49.750000    29.000000    89.125000
+      movement_std    0.428612      0.775098    -0.346486      0.332962        0.739549    0.050765     1.038233     0.086996     1.949748
+   median_movement    0.254250      0.405945    -0.151695      0.000000        0.500000    0.000000     1.581139     0.000000     1.581139
+middle_mean_height   44.211806     44.136064     0.075742     42.000000       41.687500   34.000000    72.312500    28.000000    86.562500
+   early_mean_area 1532.840278   1444.727873    88.112405   1563.750000     1426.718750 1237.062500  1823.218750   896.062500  2104.500000
+      max_movement    2.657630      4.997066    -2.339436      3.041381        4.472136    0.500000     5.147815     0.500000    17.007351
+  early_mean_width   38.541667     38.732337    -0.190670     38.656250       38.531250   34.281250    44.468750    28.937500    48.125000
+  middle_mean_area 1926.996528   2109.961957  -182.965429   1815.156250     1877.843750 1360.000000  3816.000000   896.000000  5864.937500
+
+FEATURE DEVIATION
+           feature  correct_mean  correct_std  error_mean  error_mean_z  absolute_z
+           std_iou      0.037434     0.013011    0.021031     -1.260714    1.260714
+      movement_std      0.775098     0.355535    0.428612     -0.974549    0.974549
+          mean_iou      0.975890     0.013650    0.988275      0.907288    0.907288
+      max_movement      4.997066     2.821205    2.657630     -0.829233    0.829233
+      width_change     59.161491    62.900407   24.222222     -0.555470    0.555470
+     height_change     60.099379    62.312038   31.555556     -0.458079    0.458079
+      std_center_x      6.281996     7.069023    3.223670     -0.432638    0.432638
+       area_change   9821.695652 11641.781203 4811.111111     -0.430397    0.430397
+   early_mean_area   1444.727873   224.755474 1532.840278      0.392037    0.392037
+   median_movement      0.405945     0.422817    0.254250     -0.358773    0.358773
+ middle_mean_width     46.006017    11.049963   42.368056     -0.329228    0.329228
+      std_center_y      6.341462     7.075527    4.463940     -0.265354    0.265354
+  middle_mean_area   2109.961957   899.312946 1926.996528     -0.203450    0.203450
+  early_mean_width     38.732337     4.007512   38.541667     -0.047578    0.047578
+middle_mean_height     44.136064    10.294639   44.211806      0.007357    0.007357
+
+HIGH-CONFIDENCE ERRORS
+group  track_id seed_key  actual  predicted  germination_probability  confidence     error_type
+pg1_1         3 pg1_1__3       1          0                 0.066796    0.933204 FALSE_NEGATIVE
+pg1_1         5 pg1_1__5       0          1                 0.927376    0.927376 FALSE_POSITIVE
+pg1_8         5 pg1_8__5       0          1                 0.999934    0.999934 FALSE_POSITIVE
+pg1_8         6 pg1_8__6       0          1                 0.999998    0.999998 FALSE_POSITIVE
+pg1_8         7 pg1_8__7       0          1                 0.999998    0.999998 FALSE_POSITIVE
+pg1_8         8 pg1_8__8       1          0                 0.001355    0.998645 FALSE_NEGATIVE
+pg2_8         4 pg2_8__4       0          1                 0.997962    0.997962 FALSE_POSITIVE
+
+IMPORTANT:
+P29 is diagnostic only.
+No model retraining was performed.
+No features were changed.
+No hyperparameters were changed.
+No threshold was changed.
+No labels were changed.
+No tracking records were changed.
+No images were modified.
+P25 final deployment model remains untouched.

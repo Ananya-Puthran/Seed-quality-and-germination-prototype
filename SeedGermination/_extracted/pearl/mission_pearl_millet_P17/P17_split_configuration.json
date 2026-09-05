@@ -1,0 +1,33 @@
+{
+  "mission": "MISSION PEARL MILLET",
+  "stage": "P17",
+  "p15_feature_file": "/kaggle/working/mission_pearl_millet_P15/P15_seed_temporal_spatial_features.csv",
+  "split_method": "GroupShuffleSplit",
+  "test_size": 0.2,
+  "random_state": 42,
+  "total_seeds": 824,
+  "training_seeds": 654,
+  "testing_seeds": 170,
+  "total_groups": 82,
+  "training_groups": 65,
+  "testing_groups": 17,
+  "group_overlap": 0,
+  "seed_overlap": 0,
+  "candidate_feature_count": 46,
+  "excluded_target_definition_features": [
+    "pg_el_count",
+    "observed_pg_el",
+    "first_pg_el_frame",
+    "last_pg_el_frame",
+    "longest_pg_el_run",
+    "early_pg_el_count",
+    "middle_pg_el_count",
+    "late_pg_el_count"
+  ],
+  "leakage_safe_feature_count": 38,
+  "high_correlation_pair_count": 46,
+  "labels_modified": false,
+  "tracking_modified": false,
+  "images_modified": false,
+  "model_trained": false
+}

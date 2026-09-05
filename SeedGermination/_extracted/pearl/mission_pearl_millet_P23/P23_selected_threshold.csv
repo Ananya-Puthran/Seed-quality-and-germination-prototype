@@ -1,0 +1,2 @@
+selected_threshold,selection_metric,oof_f1,oof_accuracy,oof_precision,oof_recall,oof_specificity,oof_balanced_accuracy,tp,tn,fp,fn,test_set_used
+0.53,F1,0.9696969696969697,0.9480122324159022,0.9696969696969697,0.9696969696969697,0.8172043010752689,0.8934506353861194,544,76,17,17,False

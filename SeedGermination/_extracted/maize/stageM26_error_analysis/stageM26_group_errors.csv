@@ -1,0 +1,12 @@
+group,total_errors,false_positives,false_negatives
+zm1_2,4,3,1
+zm7_10,3,2,1
+zm1_1,2,2,0
+zm1_8,2,1,1
+zm3_9,2,2,0
+zm5_5,2,2,0
+zm2_1,1,1,0
+zm2_8,1,1,0
+zm2_4,1,1,0
+zm4_2,1,1,0
+zm5_8,1,1,0

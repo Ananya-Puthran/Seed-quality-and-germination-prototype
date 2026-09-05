@@ -1,0 +1,24 @@
+MISSION PEARL MILLET — P23
+TRAINING-ONLY THRESHOLD ANALYSIS
+
+OOF records: 654
+Sealed test records: 170
+Test set used: NO
+
+Default threshold: 0.50
+Default F1: 0.96883348
+
+Selected threshold: 0.53
+Selected OOF F1: 0.96969697
+Selected OOF accuracy: 0.94801223
+Selected OOF precision: 0.96969697
+Selected OOF recall: 0.96969697
+Selected OOF specificity: 0.81720430
+Selected OOF balanced accuracy: 0.89345064
+
+No test labels were used.
+No test predictions were generated.
+No model was retrained.
+No labels were changed.
+No tracking records were changed.
+No images were modified.
