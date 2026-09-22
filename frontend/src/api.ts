@@ -1,6 +1,6 @@
 import type { QualityResponse, GerminationResponse } from './types';
 
-const API_BASE = 'http://localhost:8000';
+const API_BASE = import.meta.env.VITE_API_BASE_URL || '';
 
 export async function analyzeSeedQuality(endpoint: string, file: File): Promise<QualityResponse> {
   const formData = new FormData();

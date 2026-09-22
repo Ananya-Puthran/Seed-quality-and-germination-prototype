@@ -19,11 +19,28 @@ async def lifespan(app: FastAPI):
     yield
     logger.info("CropCare backend shutting down.")
 
+import os
+
+ALLOWED_ORIGINS = [
+    "http://localhost:5173",
+    "http://127.0.0.1:5173",
+    "http://localhost:8000",
+    "http://127.0.0.1:8000",
+]
+
+env_origins = os.getenv("ALLOWED_ORIGINS", "")
+if env_origins:
+    ALLOWED_ORIGINS.extend([o.strip() for o in env_origins.split(",") if o.strip()])
+
+vercel_url = os.getenv("VERCEL_URL")
+if vercel_url:
+    ALLOWED_ORIGINS.append(f"https://{vercel_url}")
+
 app = FastAPI(title="CropCare Prototype API", lifespan=lifespan)
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=["*"] if os.getenv("ENVIRONMENT") != "production" else ALLOWED_ORIGINS,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],

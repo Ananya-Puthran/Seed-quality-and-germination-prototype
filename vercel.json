@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "buildCommand": "cd frontend && npm install && npm run build",
+  "outputDirectory": "frontend/dist",
+  "functions": {
+    "api/**/*.py": {
+      "maxDuration": 60,
+      "includeFiles": [
+        "SeedQuality/maize_diverse_only_effnet.h5",
+        "SeedQuality/wheat_effnet.h5",
+        "SeedGermination/_extracted/pearl/mission_pearl_millet_P25/P25_final_histgradientboosting_model.pkl",
+        "SeedGermination/_extracted/pearl/mission_pearl_millet_P08/P08_spatial_tracking.csv",
+        "SeedGermination/_extracted/maize/stageM25_final_model/m25_final_gradient_boosting.joblib",
+        "SeedGermination/_extracted/maize/stageM6_tracking/stageM6_tracked_observations.csv",
+        "SeedGermination/_extracted/maize/stageM3_temporal_analysis/stageM3_image_sequence_records.csv"
+      ]
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/api/(.*)",
+      "destination": "/api/index.py"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
