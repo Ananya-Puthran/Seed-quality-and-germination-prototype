@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { LogIn, AlertCircle, CheckCircle2, Lock, Mail } from 'lucide-react';
+import { LogIn, AlertCircle, CheckCircle2, Lock, Mail, Eye, EyeOff, ShieldAlert } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
 import { supabase } from '../lib/supabase';
 import sporousLogo from '../assets/sporous_logo.jpeg';
@@ -12,6 +12,7 @@ export const AuthPage: React.FC = () => {
   const [isSignUp, setIsSignUp] = useState(false);
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
+  const [showPassword, setShowPassword] = useState(false);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [message, setMessage] = useState<string | null>(null);
@@ -22,6 +23,42 @@ export const AuthPage: React.FC = () => {
     }
   }, [user, navigate]);
 
+  // Password Requirements Validation
+  const hasMinLength = password.length >= 8;
+  const hasUppercase = /[A-Z]/.test(password);
+  const hasLowercase = /[a-z]/.test(password);
+  const hasNumber = /[0-9]/.test(password);
+  const hasSpecialChar = /[!@#$%^&*()_+\-=\[\]{}|;:,.<>?]/.test(password);
+  
+  // Rejection rules
+  const isRepetitive = password.length > 0 && Array.from(password).every(char => char === password[0]);
+  const isSequential = /(012345678|12345678|23456789|123456789|87654321|98765432)/.test(password);
+
+  const isPasswordValid = 
+    hasMinLength && 
+    hasUppercase && 
+    hasLowercase && 
+    hasNumber && 
+    hasSpecialChar && 
+    !isRepetitive && 
+    !isSequential;
+
+  const getPasswordFeedback = () => {
+    if (!password) return null;
+    if (isRepetitive) return 'Password cannot consist entirely of the same repeated character.';
+    if (isSequential) return 'Password cannot be an obvious numeric sequence (e.g. 12345678).';
+    
+    const missing: string[] = [];
+    if (!hasMinLength) missing.push('at least 8 characters');
+    if (!hasUppercase) missing.push('an uppercase letter (A-Z)');
+    if (!hasLowercase) missing.push('a lowercase letter (a-z)');
+    if (!hasNumber) missing.push('a number (0-9)');
+    if (!hasSpecialChar) missing.push('a special character (!@#$)');
+
+    if (missing.length === 0) return 'Strong password';
+    return `Add ${missing.join(', ')}.`;
+  };
+
   const handleEmailAuth = async (e: React.FormEvent) => {
     e.preventDefault();
     setError(null);
@@ -29,6 +66,11 @@ export const AuthPage: React.FC = () => {
 
     if (!email || !password) {
       setError('Please enter both email and password.');
+      return;
+    }
+
+    if (isSignUp && !isPasswordValid) {
+      setError(getPasswordFeedback() || 'Password does not meet required security standards.');
       return;
     }
 
@@ -151,19 +193,67 @@ export const AuthPage: React.FC = () => {
               <div className="relative">
                 <Lock className="w-4 h-4 text-[#566A58] absolute left-3 top-3" />
                 <input
-                  type="password"
+                  type={showPassword ? 'text' : 'password'}
                   value={password}
                   onChange={(e) => setPassword(e.target.value)}
                   placeholder="••••••••"
                   required
-                  className="w-full pl-9 pr-3 py-2 text-sm border border-[#E2DDD5] rounded-lg focus:outline-none focus:ring-2 focus:ring-[#386655]/20 focus:border-[#163323] transition-colors"
+                  className="w-full pl-9 pr-10 py-2 text-sm border border-[#E2DDD5] rounded-lg focus:outline-none focus:ring-2 focus:ring-[#386655]/20 focus:border-[#163323] transition-colors font-mono"
                 />
+                <button
+                  type="button"
+                  onClick={() => setShowPassword(!showPassword)}
+                  className="absolute right-3 top-2.5 text-[#566A58] hover:text-[#163323] transition-colors focus:outline-none"
+                  aria-label={showPassword ? 'Hide password' : 'Show password'}
+                >
+                  {showPassword ? <EyeOff className="w-4 h-4" /> : <Eye className="w-4 h-4" />}
+                </button>
               </div>
+
+              {/* Password Requirements Feedback for Sign Up */}
+              {isSignUp && (
+                <div className="mt-3 bg-[#FAF8F5] p-3 rounded-lg border border-[#E2DDD5] text-[11px] space-y-2">
+                  <div className="flex items-center justify-between font-bold text-[#163323]">
+                    <span>Password Requirements:</span>
+                    <span className={`px-2 py-0.5 rounded text-[10px] ${
+                      isPasswordValid ? 'bg-[#E1EDE6] text-[#163323]' : 'bg-amber-100 text-amber-900'
+                    }`}>
+                      {isPasswordValid ? 'Strong' : 'Requirements Pending'}
+                    </span>
+                  </div>
+
+                  <div className="grid grid-cols-2 gap-1 text-[#566A58]">
+                    <span className={hasMinLength ? 'text-[#163323] font-semibold' : ''}>
+                      {hasMinLength ? '✓' : '○'} 8+ characters
+                    </span>
+                    <span className={hasUppercase ? 'text-[#163323] font-semibold' : ''}>
+                      {hasUppercase ? '✓' : '○'} Uppercase (A-Z)
+                    </span>
+                    <span className={hasLowercase ? 'text-[#163323] font-semibold' : ''}>
+                      {hasLowercase ? '✓' : '○'} Lowercase (a-z)
+                    </span>
+                    <span className={hasNumber ? 'text-[#163323] font-semibold' : ''}>
+                      {hasNumber ? '✓' : '○'} Number (0-9)
+                    </span>
+                    <span className={hasSpecialChar ? 'text-[#163323] font-semibold' : ''} col-span-2>
+                      {hasSpecialChar ? '✓' : '○'} Special character (!@#$)
+                    </span>
+                  </div>
+
+                  {password && getPasswordFeedback() && (
+                    <p className={`pt-1 border-t border-[#E2DDD5] font-medium ${
+                      isPasswordValid ? 'text-[#163323]' : 'text-amber-800'
+                    }`}>
+                      {getPasswordFeedback()}
+                    </p>
+                  )}
+                </div>
+              )}
             </div>
 
             <button
               type="submit"
-              disabled={loading}
+              disabled={loading || (isSignUp && !isPasswordValid)}
               className="w-full bg-[#163323] hover:bg-[#234137] disabled:opacity-50 text-[#FAF8F5] font-semibold py-2.5 px-4 rounded-lg text-sm transition-all shadow-sm flex items-center justify-center gap-2"
             >
               {loading ? (
