@@ -1,34 +1,38 @@
-# CropCare — Seed Quality & Germination AI Prototype
+# SPOROUS — Seed Quality & Germination AI Platform
 
-A clean, human-designed agricultural software prototype for **CropCare** that demonstrates live inference of seed quality and germination machine learning models through a modern React frontend and FastAPI backend.
-
----
-
-## 1. What the Prototype Does
-
-This single-page prototype allows agricultural users to select between two core modules:
-
-- **QUALITY MODULE**:
-  - **Maize Quality**: Runs `maize_diverse_only_effnet.h5` (Keras EfficientNetB0)
-  - **Wheat Quality**: Runs `wheat_effnet.h5` (Keras EfficientNetB0)
-
-- **GERMINATION MODULE**:
-  - **Pearl Millet**: Runs production model `P25_final_histgradientboosting_model.pkl` (`HistGradientBoostingClassifier`) with threshold **0.53** and 15 spatial/temporal features.
-  - **Maize**: Runs production model `m25_final_gradient_boosting.joblib` (`GradientBoostingClassifier`) with threshold **0.425** and 16 spatial/temporal features.
-
-For Germination, OpenCV detects individual seeds, draws green bounding boxes with `Seed 1`, `Seed 2`, ... tags, and outputs an Individual Seed Report table for up to 10 seeds with live probabilities and confidence percentages.
+**SPOROUS** is a modern agricultural software platform demonstrating live inference of seed quality and germination machine learning models through a clean React frontend and FastAPI backend.
 
 ---
 
-## 2. Design System & Aesthetics
+## 1. Application Routing
 
-- **Primary Colors**: White background (`bg-white`), dark green headings (`text-green-900`), and emerald/green accents (`bg-green-600`).
-- **UI Components**: `shadcn/ui` + Tailwind CSS (`Card`, `Button`, `Badge`, `Progress`, `Alert`, `Skeleton`, `Separator`).
-- **Clean Agricultural Software Style**: Minimal decoration, readable typography, subtle borders, and professional layout.
+The application features three main routes:
+
+- **/auth**: Authentication page supporting Email/Password sign-in/sign-up and **Google OAuth** via Supabase Auth.
+- **/home**: Landing and overview page with feature cards for **QUALITY** assessment and **GERMINATION** prediction.
+- **/prediction**: Production inference pipeline allowing users to select modules, upload seed images, and inspect real-time predictions, OpenCV seed bounding boxes, and individual seed confidence reports.
+
+Unauthenticated users attempting to access `/home` or `/prediction` are automatically redirected to `/auth`.
 
 ---
 
-## 3. How to Run the Prototype
+## 2. Supabase Authentication Setup
+
+1. Create a project at [Supabase](https://supabase.com).
+2. Copy your Supabase Project URL and Anon Key.
+3. In the `frontend` folder, create a `.env` file based on `.env.example`:
+
+```env
+VITE_SUPABASE_URL=https://your-project-id.supabase.co
+VITE_SUPABASE_ANON_KEY=your-anon-key
+```
+
+4. For Google OAuth, enable Google under **Supabase Dashboard -> Authentication -> Providers -> Google** and configure your Google Client ID and Secret. Redirect URLs should include:
+`http://localhost:5173/home`
+
+---
+
+## 3. How to Run the Platform
 
 ### 1. Backend (FastAPI)
 ```bash
@@ -45,7 +49,9 @@ Open `http://localhost:5173` in your web browser.
 
 ---
 
-## 4. Model Architecture & Threshold Summary
+## 4. Locked Germination & Quality Prediction Models
+
+The production ML pipeline is locked and untouched:
 
 | Option | Section | Engine / Model File | Threshold | Output |
 |---|---|---|---|---|

@@ -5,28 +5,55 @@
 @layer base {
   body {
     font-family: 'Inter', system-ui, -apple-system, sans-serif;
-    background-color: #ffffff;
-    color: #1e293b;
+    background-color: #FAF8F5;
+    color: #2D3A32;
+    -webkit-font-smoothing: antialiased;
   }
 
   h1, h2, h3, h4, h5, h6 {
-    font-family: 'Outfit', 'Inter', sans-serif;
-    color: #14532d; /* dark green */
+    color: #163323; /* Deep forest green */
+    letter-spacing: -0.02em;
   }
 }
 
-/* Custom subtle card styles */
-.agri-card {
-  background-color: #ffffff;
-  border: 1px solid #e2e8f0;
-  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05);
+/* Custom Editorial Agricultural Styling */
+.bg-warm-cream {
+  background-color: #FAF8F5;
 }
 
-.agri-card-hover {
+.bg-soft-ivory {
+  background-color: #F5F2EC;
+}
+
+.border-sage-muted {
+  border-color: #E2DDD5;
+}
+
+.text-forest-dark {
+  color: #163323;
+}
+
+.text-earth-muted {
+  color: #566A58;
+}
+
+.btn-forest {
+  background-color: #163323;
+  color: #FAF8F5;
   transition: all 0.2s ease-in-out;
 }
 
-.agri-card-hover:hover {
-  border-color: #16a34a;
-  box-shadow: 0 4px 12px -2px rgba(22, 163, 74, 0.12);
+.btn-forest:hover {
+  background-color: #234137;
+}
+
+/* Subtle non-AI editorial cards */
+.editorial-card {
+  background-color: #FFFFFF;
+  border: 1px solid #E2DDD5;
+  transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.editorial-card:hover {
+  border-color: #386655;
 }
