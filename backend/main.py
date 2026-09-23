@@ -28,6 +28,10 @@ ALLOWED_ORIGINS = [
     "http://127.0.0.1:8000",
 ]
 
+frontend_url = os.getenv("FRONTEND_URL", "")
+if frontend_url:
+    ALLOWED_ORIGINS.extend([u.strip() for u in frontend_url.split(",") if u.strip()])
+
 env_origins = os.getenv("ALLOWED_ORIGINS", "")
 if env_origins:
     ALLOWED_ORIGINS.extend([o.strip() for o in env_origins.split(",") if o.strip()])
