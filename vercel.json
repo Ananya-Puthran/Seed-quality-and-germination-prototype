@@ -5,7 +5,7 @@
   "functions": {
     "api/index.py": {
       "maxDuration": 60,
-      "includeFiles": "{SeedQuality/maize_diverse_only_effnet.h5,SeedQuality/wheat_effnet.h5,SeedGermination/_extracted/pearl/mission_pearl_millet_P25/P25_final_histgradientboosting_model.pkl,SeedGermination/_extracted/pearl/mission_pearl_millet_P08/P08_spatial_tracking.csv,SeedGermination/_extracted/maize/stageM25_final_model/m25_final_gradient_boosting.joblib,SeedGermination/_extracted/maize/stageM6_tracking/stageM6_tracked_observations.csv,SeedGermination/_extracted/maize/stageM3_temporal_analysis/stageM3_image_sequence_records.csv}"
+      "excludeFiles": "{SeedQuality/{germination,seed_quality}*,SeedGermination/_extracted/*/{__*,stageM[1245789]*,stageM1*,stageM2[012346789]*,stageM30*,mission_pearl_millet_{ACT*,COM*,P0[2-7]*,P09*,P1*,P2[0-46-9]*,P3*}*}**,*.zip,test_samples/**}"
     }
   },
   "rewrites": [
