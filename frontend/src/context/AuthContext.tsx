@@ -69,25 +69,25 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
     const { error } = await supabase.auth.signInWithOAuth({
       provider: 'google',
       options: {
-        redirectTo: `${window.location.origin}/home`,
+       redirectTo: `${window.location.origin}/home`,
       },
     });
     if (error) throw error;
   };
 
-  return (
-    <AuthContext.Provider
-      value={{
+  return React.createElement(
+    AuthContext.Provider,
+    {
+      value: {
         user,
         session,
         loading,
         isConfigured: configured,
         signOut,
         signInWithGoogle,
-      }}
-    >
-      {children}
-    </AuthContext.Provider>
+      },
+    },
+    children,
   );
 };
 
